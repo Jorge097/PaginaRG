@@ -1,0 +1,308 @@
+
+/*Header */
+
+.RGHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
+  padding: 12px 40px;
+}
+
+.RGHeader img {
+  height: 90px;
+  width: auto;
+}
+
+.Fertilizantes {
+    flex: 1;                
+    text-align: center;     
+}
+
+.Fertilizantes h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.1;
+}
+
+.Fertilizantes .subtitle {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #6a7a94;
+}
+
+
+.Titulos{
+
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-right: 12%;
+}
+
+.Botones:link {
+    color: #3c8d3f; 
+    text-decoration: none; 
+    font-size: 20px;
+}
+
+.Botones:visited {
+  color: #3d8f40; 
+  text-decoration: none; 
+  font-size: 20px;
+}
+
+.Botones:hover {
+    color: #2E7D32;   
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.Botones:active {
+  color: #1B5E20;   
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/*Cuerpo de la pagina*/
+
+/* Este código CSS es nuevo y diseña la estructura de 3 columnas (Somos, Misión, Visión) en la parte superior y la lista de Valores en doble columna en la parte inferior, tal como se solicitó. */
+
+.Somos {
+    padding: 40px 20px; 
+    background-color: #fff;
+}
+
+.Header-Container {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 15px; 
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+.Bloque {
+    padding: 15px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+}
+
+.Bloque h2 {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #000;
+    border-bottom: 3px solid red;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.Bloque p {
+    margin: 0;
+    line-height: 1.6;
+}
+
+.QuienesSomos {
+    flex-basis: 20%;
+    border: none;
+    padding: 0;
+}
+.QuienesSomos h2 {
+    border-bottom: 3px solid #0056b3;
+}
+
+.QuienesSomos p {
+    flex-basis: 40%;
+    border: 1px solid #000;
+    padding: 15px;
+    margin-left: 21%; 
+    margin-top: -35px;
+}
+
+.Mision {
+    flex-basis: 35%;
+    margin-left: auto;
+    margin-top: -150px; 
+    border: none;
+    padding: 0;
+}
+.Mision h2 {
+    border-bottom: 3px solid red;
+}
+.Mision p {
+    border: 1px solid #000;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+
+.Vision {
+    flex-basis: 50%;
+    border: none;
+    padding: 0;
+    margin-left: 45%; 
+    margin-top: -150px;
+}
+.Vision h2 {
+    border-bottom: 3px solid red;
+}
+.Vision p {
+    border: 1px solid #000;
+    padding: 15px;
+    margin-top: -30px;
+}
+
+
+.Valores-Container {
+    width: 100%;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.Valores-Container h2 {
+    font-size: 2em;
+    border: none;
+    padding-bottom: 0;
+}
+
+.Valores-Container ul {
+    list-style: none;
+    padding: 0;
+    margin: 20px auto; 
+    width: 70%;
+    display: flex;
+    flex-wrap: wrap; 
+    text-align: left;
+}
+
+.Valores-Container ul li {
+    flex-basis: 50%; 
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+
+body {
+    /*background-image: linear-gradient(rgb(176, 238, 181), white);*/
+    margin: 0vh;
+    padding: 0vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+
+/* Footer*/
+
+.Contacto {
+  background-color: chartreuse;
+  padding: 80px 20px;
+}
+
+.footer-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    margin-left: 10%;
+    display: flex;      
+    justify-content: space-between; 
+    align-items: flex-start;
+    gap: 40px;    
+}
+
+.footer-logo {
+  width: 150px;   
+  height: auto;
+  margin-bottom: 20px;
+}
+
+.footer-info p {
+  margin: 5px 0;
+  font-size: 20px;
+}
+
+.Form {
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between; 
+    gap: 16px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto; 
+}
+
+.campo-doble {
+    display: flex;
+    flex-direction: column;
+    width: 48%; /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
+}
+
+/* Mantén las demás reglas del formulario */
+.Form label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #000;
+}
+
+.Form input,
+.Form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.Form textarea { 
+  min-height: 80px;
+  resize: vertical;
+  width: 100%; /* El campo de texto ocupa todo el ancho */
+}
+
+.Form button {
+    margin-top: 10px;
+    padding: 12px;
+    background: white;
+    border: 2px solid #28a745;
+    color: #28a745;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%; /* El botón ocupa todo el ancho */
+}
+
+.Form button:hover {
+    background: #28a745;
+    color: white;
+}
+
+.btn-enviar {
+  margin-top: 10px;
+  padding: 12px;
+  background: white;
+  border: 2px solid #28a745;
+  color: #28a745;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-enviar:hover {
+  background: #28a745;
+  color: white;
+}
+
+.Cotizacion {
+    margin: 2vh auto;
+    display: block;
+    text-align: center;
+    width: 30%;
+    min-width: 250px;
+    height: 5vh;
+    font-size: 1.5vw;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
