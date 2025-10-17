@@ -18,7 +18,7 @@
         <a class= "Botones" href="{{ route('home') }}">Inicio</a>
         <a class= "Botones" href="{{ route('Productos') }}">Productos</a>
         <a class= "Botones" href="¿Que hacemos?">¿Que hacemos?</a>
-        <a class= "Botones" href="{{ route('Somos') }}">¿Quiénes Somos?</a>
+        <a class= "Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
         <a class= "Botones" href="Contactanos">Contactanos</a>
     </nav>
 
