@@ -20,7 +20,6 @@
         <a class= "Botones" href="¿Que hacemos?">¿Que hacemos?</a>
         <a class= "Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
         <a class= "Botones" href="Contactanos">Contactanos</a>
-       <p>hola</p>
     </nav>
 
 
