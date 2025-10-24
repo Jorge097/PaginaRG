@@ -37,255 +37,254 @@
     </div>
     
     
-    <div>
-            <div class="contenedor-productos">
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/CompleteMix.jpg" alt="Complete Mix">
-                    <div class="descripcion-producto">
-                        <h3>COMPLETE MIX</h3>
-                        <p>Este fertilizante foliar es útil para complementar su programa de fertilización anual ya que contiene todos los Micronutrientes necesarios para el buen funcionamiento de las plantas.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Alfalfa</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+    <div class="contenedor-productos">
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/CompleteMix.jpg" alt="Complete Mix">
+                <div class="descripcion-producto">
+                    <h3>COMPLETE MIX</h3>
+                    <p>Este fertilizante foliar es útil para complementar su programa de fertilización anual ya que contiene todos los Micronutrientes necesarios para el buen funcionamiento de las plantas.</p>
                 </div>
             </div>
-            
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/RgBrotacion.jpg" alt="RG Brotacion">
-                    <div class="descripcion-producto">
-                        <h3>RG BROTACIÓN</h3>
-                        <p>Este fertilizante foliar es de gran ayuda como estimulante de la brotación de sus cultivos, ya que incrementa el brote de las yemas en una forma más uniforme. Promoviendo la fertilidad de los brotes ya que proporciona un balance hormonal para una mejor división y diferenciación celular. Es ideal para el arranque de cualquier cultivo.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Alfalfa</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/RgBrotacion.jpg" alt="RG Brotacion">
+                <div class="descripcion-producto">
+                    <h3>RG BROTACIÓN</h3>
+                    <p>Este fertilizante foliar es de gran ayuda como estimulante de la brotación de sus cultivos, ya que incrementa el brote de las yemas en una forma más uniforme. Promoviendo la fertilidad de los brotes ya que proporciona un balance hormonal para una mejor división y diferenciación celular. Es ideal para el arranque de cualquier cultivo.</p>
                 </div>
             </div>
-            
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/RgFloracion.jpg" alt="RG Floracion">
-                    <div class="descripcion-producto">
-                        <h3>RG FLORACIÓN</h3>
-                        <p>Este fertilizante foliar es de gran ayuda como estimulante de la floración y para fortalecer la polinización. Incrementa la diferenciación y división celular en la flor lo que provoca una mayor fecundación del fruto. Ideal para cualquier cultivo frutal y hortalizas.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/RgFloracion.jpg" alt="RG Floracion">
+                <div class="descripcion-producto">
+                    <h3>RG FLORACIÓN</h3>
+                    <p>Este fertilizante foliar es de gran ayuda como estimulante de la floración y para fortalecer la polinización. Incrementa la diferenciación y división celular en la flor lo que provoca una mayor fecundación del fruto. Ideal para cualquier cultivo frutal y hortalizas.</p>
                 </div>
             </div>
-            
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Zinc.jpg" alt="Nitro Zn 17">
-                    <div class="descripcion-producto">
-                        <h3>NITRO ZN 17</h3>
-                        <p>Como fuente de Zinc es la mejor alternativa en la fertilización foliar para alcanzar la mejor nutrición de su huerta Nogalera ya que esta elaborado a base de Nitrato de Zinc lo que facilita su absorción y translocación dentro de la planta. Ideal para cualquier cultivo.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
+        
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Zinc.jpg" alt="Nitro Zn 17">
+                <div class="descripcion-producto">
+                    <h3>NITRO ZN 17</h3>
+                    <p>Como fuente de Zinc es la mejor alternativa en la fertilización foliar para alcanzar la mejor nutrición de su huerta Nogalera ya que esta elaborado a base de Nitrato de Zinc lo que facilita su absorción y translocación dentro de la planta. Ideal para cualquier cultivo.</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Nzinc.jpg" alt="N Zinc 7.5%">
-                    <div class="descripcion-producto">
-                        <h3>N ZINC 7.5%</h3>
-                        <p>Como fuente de Zinc una muy buena alternativa en la fertilización foliar de sus cultivos. Ideal para corregir deficiencias de Zinc en cualquier cultivo.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Nzinc.jpg" alt="N Zinc 7.5%">
+                <div class="descripcion-producto">
+                    <h3>N ZINC 7.5%</h3>
+                    <p>Como fuente de Zinc una muy buena alternativa en la fertilización foliar de sus cultivos. Ideal para corregir deficiencias de Zinc en cualquier cultivo.</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Stimulant.jpg" alt="Stimulan T">
-                    <div class="descripcion-producto">
-                        <h3>STIMULAN T</h3>
-                        <p>Es un fertilizante que estimula el crecimiento de las plantas, incrementando su vigor y la absorción, penetración y transporte activo de nutrientes a nivel membrana, fundamental en células vegetativas y radiculares, fortaleciendo el crecimiento y desarrollo vegetativo.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Alfalfa</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Stimulant.jpg" alt="Stimulan T">
+                <div class="descripcion-producto">
+                    <h3>STIMULAN T</h3>
+                    <p>Es un fertilizante que estimula el crecimiento de las plantas, incrementando su vigor y la absorción, penetración y transporte activo de nutrientes a nivel membrana, fundamental en células vegetativas y radiculares, fortaleciendo el crecimiento y desarrollo vegetativo.</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Alfalfa</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Niquel.jpg" alt="NIQUEL 5">
-                    <div class="descripcion-producto">
-                        <h3>NIQUEL 5</h3>
-                        <p>Este fertilizante foliar es útil en la corrección y prevención de la oreja de ratón en nogal. Ideal para reducir la pérdida de nuez en Junio y mejorar la resistencia a enfermedades.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Niquel.jpg" alt="NIQUEL 5">
+                <div class="descripcion-producto">
+                    <h3>NIQUEL 5</h3>
+                    <p>Este fertilizante foliar es útil en la corrección y prevención de la oreja de ratón en nogal. Ideal para reducir la pérdida de nuez en Junio y mejorar la resistencia a enfermedades.</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/FoliarK.jpg" alt="Folair K21">
-                    <div class="descripcion-producto">
-                        <h3>FOLIAR K21</h3>
-                        <p>Fertilizante foliar útil para auxiliar en el llenado de la nuez en su huerta y del fruto en maíz y hortalizas, además de auxiliar en el estrés por las altas temperaturas de Julio y Agosto. Ideal para corregir deficiencias específicas de Potasio en todos los cultivos.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/FoliarK.jpg" alt="Foliar K21">
+                <div class="descripcion-producto">
+                    <h3>FOLIAR K21</h3>
+                    <p>Fertilizante foliar útil para auxiliar en el llenado de la nuez en su huerta y del fruto en maíz y hortalizas, además de auxiliar en el estrés por las altas temperaturas de Julio y Agosto. Ideal para corregir deficiencias específicas de Potasio en todos los cultivos.</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/SoilRestore.jpg" alt="Soil Resotore">
-                    <div class="descripcion-producto">
-                        <h3>SOIL RESTORE</h3>
-                        <p>Es un producto que mejora la estructura física del suelo, incrementando la permeabilidad y favoreciendo el desarrollo y crecimiento radicular de las plantas, incrementando su vigor y desarrollo. Incrementa la absorción de nutrientes al llevar a cabo el desbloqueo de los nutrientes en el complejo de intercambio catiónico.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Alfalfa</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/SoilRestore.jpg" alt="Soil Restore">
+                <div class="descripcion-producto">
+                    <h3>SOIL RESTORE</h3>
+                    <p>Es un producto que mejora la estructura física del suelo, incrementando la permeabilidad y favoreciendo el desarrollo y crecimiento radicular de las plantas, incrementando su vigor y desarrollo. Incrementa la absorción de nutrientes al llevar a cabo el desbloqueo de los nutrientes en el complejo de intercambio catiónico.</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Alfalfa</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE 8-24-2">
-                    <div class="descripcion-producto">
-                        <h3>FERTILIZANTE 8-24-2</h3>
-                        <p>Es un fertilizante líquido de reacción ácida, ideal para suelos alcalinos, incrementando  la asimilación de los nutrientes hacia la planta. Es una fuente altamente disponible de Fósforo, Nitrógeno y Potasio, el cual puede ser diluido en agua o inyectarse directamente al flujo en su sistema de riego, ideal para el arranque de cualquier cultivo. Su contenido de ácidos orgánicos favorece la asimilación de los nutrientes presentes en el suelo y que son absorbidos por la raíz de la planta.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Nogales</li>
-                        <li>Alfalfa</li>
-                        <li>Maíz</li>
-                        <li>Sorgo</li>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE 8-24-2">
+                <div class="descripcion-producto">
+                    <h3>FERTILIZANTE 8-24-2</h3>
+                    <p>Es un fertilizante líquido de reacción ácida, ideal para suelos alcalinos, incrementando la asimilación de los nutrientes hacia la planta...</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Nogales</li>
+                    <li>Alfalfa</li>
+                    <li>Maíz</li>
+                    <li>Sorgo</li>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE N20">
-                    <div class="descripcion-producto">
-                        <h3>FERTILIZANTE N 20</h3>
-                        <p>Fertilizante líquido con un alto contenido de Nitrógeno ideal para aportar este nutriente en las etapas de desarrollo y crecimiento de los cultivos. El cual puede ser diluído en agua o inyectarse directamente al flujo del agua en su sistema de riego. Por su contenido de ácidos orgánicos favorece la asimilación de los nutrientes presentes en el suelo, gracias a su contenido de activadores naturales de crecimiento. Ideal para cualquier cultivo.</p>
-                    </div>
-                </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE N20">
+                <div class="descripcion-producto">
+                    <h3>FERTILIZANTE N 20</h3>
+                    <p>Fertilizante líquido con un alto contenido de Nitrógeno ideal para aportar este nutriente en las etapas de desarrollo y crecimiento...</p>
                 </div>
             </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
+            </div>
+        </div>
 
-            <div class="tarjeta-producto">
-                <div class="info-producto">
-                    <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE 5-0-25">
-                    <div class="descripcion-producto">
-                        <h3>FERTILIZANTE 5-0-25</h3>
-                        <p>Es un fertilizante líquido con un alto contenido de Potasio, de alta movilidad, rápida absorción y asimilación por la planta. Su aplicación favorece al sistema radicular y es ideal para aportar este nutriente en la etapa del llenado de fruto. Es una fuente de Potasio altamente disponible, el cual puede ser diluido en agua o inyectarse directamente al flujo del agua en su sistema de riego. Ideal para la nutrición de cualquier cultivo.</p>
-                    </div>
+        <div class="tarjeta-producto">
+            <div class="info-producto">
+                <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE 5-0-25">
+                <div class="descripcion-producto">
+                    <h3>FERTILIZANTE 5-0-25</h3>
+                    <p>Es un fertilizante líquido con un alto contenido de Potasio, de alta movilidad, rápida absorción y asimilación por la planta...</p>
                 </div>
-                <div class="cultivos">
-                    <h4>Cultivos recomendados:</h4>
-                    <ul>
-                        <li>Algodón</li>
-                        <li>Hortalizas</li>
-                        <li>Granado</li>
-                    </ul>
-                </div>
+            </div>
+            <div class="cultivos">
+                <h4>Cultivos recomendados:</h4>
+                <ul>
+                    <li>Algodón</li>
+                    <li>Hortalizas</li>
+                    <li>Granado</li>
+                </ul>
             </div>
         </div>
     </div>
+
 
 
 
