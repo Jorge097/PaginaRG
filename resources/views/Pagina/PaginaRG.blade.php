@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <title>RG Fertilizantes Foliares</title>
     <link rel="stylesheet" href="/css/Diseno.css">
@@ -8,18 +9,18 @@
 <body class="body">
     <header class="RGHeader">
         <img src="/Img/Logo2.png" alt="Logo" />
-            <div class="Fertilizantes">
-                <h1>RG Fertilizantes Foliares</h1>
-                <p class="subtitle">REAL GROWTH FERTILIZERS</p>
-            </div>
+        <div class="Fertilizantes">
+            <h1>RG Fertilizantes Foliares</h1>
+            <p class="subtitle">REAL GROWTH FERTILIZERS</p>
+        </div>
     </header>
 
-    <nav class= "Titulos">
-        <a class= "Botones" href="{{ route('home') }}">Inicio</a>
-        <a class= "Botones" href="{{ route('Productos') }}">Productos</a>
-        <a class= "Botones" href="¿Que hacemos?">¿Que hacemos?</a>
-        <a class= "Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
-        <a class= "Botones" href="Contactanos">Contactanos</a>
+    <nav class="Titulos">
+        <a class="Botones" href="{{ route('home') }}">Inicio</a>
+        <a class="Botones" href="{{ route('Productos') }}">Productos</a>
+        <a class="Botones" href="¿Que hacemos?">¿Que hacemos?</a>
+        <a class="Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
+        <a class="Botones" href="#ContactoFooter">Contactanos</a>
     </nav>
 
 
@@ -30,29 +31,29 @@
     </div>
 
 
-    
+
 
     <!-- Primera parte de la pagina-->
-    <div class="Somos"> 
+    <div class="Somos">
         <div class="Header">
             <h2>La Mejor Opcion Para Tu Cultivo</h2>
             <p>
-            En <b>RGFoliares</b> transformamos la forma de nutrir tus cultivos.
-            Ofrecemos fertilizantes de alta calidad elaborados con ingredientes 
-            100% naturales, diseñados para fortalecer tu producción mientras cuidas 
-            el medio ambiente.
-            Nos especializamos en análisis de tierra y agua, con un enfoque único en 
-            nogales, garantizando resultados visibles y sostenibles.
-            No lo pienses más: si buscas un cultivo más fuerte, sano y productivo, 
-            contáctanos hoy mismo.
+                En <b>RGFoliares</b> transformamos la forma de nutrir tus cultivos.
+                Ofrecemos fertilizantes de alta calidad elaborados con ingredientes
+                100% naturales, diseñados para fortalecer tu producción mientras cuidas
+                el medio ambiente.
+                Nos especializamos en análisis de tierra y agua, con un enfoque único en
+                nogales, garantizando resultados visibles y sostenibles.
+                No lo pienses más: si buscas un cultivo más fuerte, sano y productivo,
+                contáctanos hoy mismo.
             </p>
 
             <button class="BProducto" href="{{ route('Productos') }}">Productos</button>
         </div>
     </div>
 
-    
-    
+
+
 
     <!-- Botones para mostrar la informacion -->
 
@@ -65,7 +66,8 @@
                     <div id="info-1-1" class="info">
                         <img src="/Img/CompleteMix.jpg" alt="Complete Mix">
                         <p>
-                            Este fertilizante foliar es útil para complementar su programa de fertilización anual ya que contiene todos
+                            Este fertilizante foliar es útil para complementar su programa de fertilización anual ya que
+                            contiene todos
                             los Micronutrientes necesarios para el buen funcionamiento de las plantas.
                         </p>
                     </div>
@@ -73,9 +75,12 @@
                     <div id="info-1-2" class="info">
                         <img src="/Img/RgBrotacion.jpg" alt="RG Brotacion">
                         <p>
-                            Este fertilizante foliar es de gran ayuda como estimulante de la brotación de sus cultivos,ya que incrementa 
-                            el brote de las yemas en una forma más uniforme. Promoviendo la fertilidad de los brotes ya que proporciona 
-                            un balance hormonal para una mejor división y diferenciación celular. Es ideal para el arranque de cualquier 
+                            Este fertilizante foliar es de gran ayuda como estimulante de la brotación de sus
+                            cultivos,ya que incrementa
+                            el brote de las yemas en una forma más uniforme. Promoviendo la fertilidad de los brotes ya
+                            que proporciona
+                            un balance hormonal para una mejor división y diferenciación celular. Es ideal para el
+                            arranque de cualquier
                             cultivo.
                         </p>
                     </div>
@@ -83,8 +88,10 @@
                     <div id="info-1-3" class="info">
                         <img src="/Img/RgFloracion.jpg" alt="RG Floracion">
                         <p>
-                            Este fertilizante foliar es de gran ayuda como estimulante de la floración y para fortalecer la polinización.
-                            Incrementa la diferenciación y división celular en la flor lo que provoca una mayor fecundación del fruto.
+                            Este fertilizante foliar es de gran ayuda como estimulante de la floración y para fortalecer
+                            la polinización.
+                            Incrementa la diferenciación y división celular en la flor lo que provoca una mayor
+                            fecundación del fruto.
                             Ideal para cualquier cultivo frutal y hortalizas.
                         </p>
                     </div>
@@ -92,7 +99,8 @@
                     <div id="info-1-4" class="info">
                         <img src="/Img/Zinc.jpg" alt="Nitro Zn 17">
                         <p>
-                            Como fuente de Zinc es la mejor alternativa en la fertilización foliar para alcanzar la mejor
+                            Como fuente de Zinc es la mejor alternativa en la fertilización foliar para alcanzar la
+                            mejor
                             nutrición de su huerta Nogalera ya que esta elaborado a base de Nitrato de Zinc lo que
                             facilita su absorción y translocación dentro de la planta. Ideal para cualquier cultivo.
                         </p>
@@ -118,7 +126,8 @@
                     <div id="info-1-7" class="info">
                         <img src="/Img/Niquel.jpg" alt="NIQUEL 5">
                         <p>
-                            Este fertilizante foliar es útil en la corrección y prevención de la oreja de ratón en nogal.
+                            Este fertilizante foliar es útil en la corrección y prevención de la oreja de ratón en
+                            nogal.
                             Ideal para reducir la pérdida de nuez en Junio y mejorar la resistencia a enfermedades.
                         </p>
                     </div>
@@ -126,7 +135,8 @@
                     <div id="info-1-8" class="info">
                         <img src="/Img/FoliarK.jpg" alt="Folair K21">
                         <p>
-                            Fertilizante foliar útil para auxiliar en el llenado de la nuez en su huerta y del fruto en maíz
+                            Fertilizante foliar útil para auxiliar en el llenado de la nuez en su huerta y del fruto en
+                            maíz
                             y hortalizas, además de auxiliar en el estrés por las altas temperaturas de Julio y Agosto.
                             Ideal para corregir deficiencias específicas de Potasio en todos los cultivos.
                         </p>
@@ -137,7 +147,7 @@
                         <p>
                             Es un producto que mejora la estructura física del suelo, incrementando la permeabilidad
                             y favoreciendo el desarrollo y crecimiento radicular de las plantas, incrementando su vigor
-                            y desarrollo. Incrementa la absorción de nutrientes al llevar a cabo el desbloqueo de los 
+                            y desarrollo. Incrementa la absorción de nutrientes al llevar a cabo el desbloqueo de los
                             nutrientes en el complejo de intercambio catiónico.
                         </p>
                     </div>
@@ -145,22 +155,22 @@
                     <div id="info-1-10" class="info">
                         <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE 8-24-2">
                         <p>
-                            Es un fertilizante líquido de reacción ácida, ideal para suelos alcalinos, incrementando  la 
-                            asimilación de los nutrientes hacia la planta. Es una fuente altamente disponible de 
-                            Fósforo, Nitrógeno y Potasio, el cual puede ser diluido en agua o inyectarse directamente 
-                            al flujo en su sistema de riego, ideal para el arranque de cualquier cultivo. 
-                            Su contenido de ácidos orgánicos favorece la asimilación de los nutrientes presentes en el 
-                            suelo y que son absorbidos por la raíz de la planta. 
+                            Es un fertilizante líquido de reacción ácida, ideal para suelos alcalinos, incrementando la
+                            asimilación de los nutrientes hacia la planta. Es una fuente altamente disponible de
+                            Fósforo, Nitrógeno y Potasio, el cual puede ser diluido en agua o inyectarse directamente
+                            al flujo en su sistema de riego, ideal para el arranque de cualquier cultivo.
+                            Su contenido de ácidos orgánicos favorece la asimilación de los nutrientes presentes en el
+                            suelo y que son absorbidos por la raíz de la planta.
                         </p>
                     </div>
                     <button onclick="mostrarInfo(1,11, 'FertilizanteN20.jpg', '')">FERTILIZANTE N 20</button>
                     <div id="info-1-11" class="info">
                         <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE N20">
                         <p>
-                            Fertilizante líquido con un alto contenido de Nitrógeno ideal para aportar este nutriente 
-                            en las etapas de desarrollo y crecimiento de los cultivos. El cual puede ser diluído en agua 
-                            o inyectarse directamente al flujo del agua en su sistema de riego. Por su contenido de 
-                            ácidos orgánicos favorece la asimilación de los nutrientes presentes en el suelo, gracias a 
+                            Fertilizante líquido con un alto contenido de Nitrógeno ideal para aportar este nutriente
+                            en las etapas de desarrollo y crecimiento de los cultivos. El cual puede ser diluído en agua
+                            o inyectarse directamente al flujo del agua en su sistema de riego. Por su contenido de
+                            ácidos orgánicos favorece la asimilación de los nutrientes presentes en el suelo, gracias a
                             su contenido de activadores naturales de crecimiento. Ideal para cualquier cultivo.
                         </p>
                     </div>
@@ -168,10 +178,11 @@
                     <div id="info-1-12" class="info">
                         <img src="/Img/Fertilizante 8.jpg" alt="FERTILIZANTE 5-0-25">
                         <p>
-                            Es un fertilizante líquido con un alto contenido de Potasio, de alta movilidad, rápida 
-                            absorción y asimilación por la planta. Su aplicación favorece al sistema radicular y es ideal 
-                            para aportar este nutriente en la etapa del llenado de fruto. Es una fuente de Potasio 
-                            altatamente disponible, el cual puede ser diluido en agua o inyectarse directamente al 
+                            Es un fertilizante líquido con un alto contenido de Potasio, de alta movilidad, rápida
+                            absorción y asimilación por la planta. Su aplicación favorece al sistema radicular y es
+                            ideal
+                            para aportar este nutriente en la etapa del llenado de fruto. Es una fuente de Potasio
+                            altatamente disponible, el cual puede ser diluido en agua o inyectarse directamente al
                             flujo del agua en su sistema de riego. Ideal para la nutrición de cualquier cultivo.
                         </p>
                     </div>
@@ -300,13 +311,13 @@
 
         </div>
     </div>
-    
-    
+
+
     <script src="/js/Boton.js"></script>
 
     </div>
 
-    <footer class="Contacto">
+    <footer class="Contacto" id="ContactoFooter">
         <div class="footer-container">
             <div class="footer-left">
                 <img src="Img/Logo2.png" alt="Logo RGFoliares" class="footer-logo">
@@ -314,60 +325,63 @@
                     <p><b>Horario de Atención</b></p>
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
                     <p>Tel: +52 (871) 329 7483</p>
-                    <p>Email: <a href="mailto:jjorgesilvaj@RgFoliares.com?Subject=Información">jjorgesilvaj@RgFoliares.com</a></p>
+                    <p>Email: <a
+                            href="mailto:jjorgesilvaj@RgFoliares.com?Subject=Información">jjorgesilvaj@RgFoliares.com</a>
+                    </p>
                 </div>
             </div>
 
             <!--Formulario para enviar la info-->
-    
+
             <button id="mostrarFormulario" class="Cotizacion">Solicitar Cotización</button>
 
             <form action="{{ route('cotizaciones.store') }}" id="formulario" class="Form" method="POST">
                 @csrf
 
-                    <div class="campo-doble">
-                        <label for="nombre">Nombre del Productor:</label>
-                        <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
-                    </div>
+                <div class="campo-doble">
+                    <label for="nombre">Nombre del Productor:</label>
+                    <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
+                </div>
 
-                    <div class="campo-doble">
-                        <label for="telefono">Teléfono:</label>
-                        <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
-                    </div>
+                <div class="campo-doble">
+                    <label for="telefono">Teléfono:</label>
+                    <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
+                </div>
 
-                    <div class="campo-doble">
-                        <label for="telefono">Correo:</label>
+                <div class="campo-doble">
+                    <label for="telefono">Correo:</label>
                     <input type="email" id="Email" name="Email" placeholder="Correo" required>
-                    </div>
+                </div>
 
-                    <div class="campo-doble">
-                        <label for="ubicacion">Ubicación:</label>
-                        <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
-                    </div>
+                <div class="campo-doble">
+                    <label for="ubicacion">Ubicación:</label>
+                    <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
+                </div>
 
-                    <div class="campo-doble">
-                        <label for="Cultivo">Cultivo:</label>
-                        <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
-                    </div>
+                <div class="campo-doble">
+                    <label for="Cultivo">Cultivo:</label>
+                    <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
+                </div>
 
-                    <div class="campo-doble">
-                        <label for="surface">Superficie:</label>
-                        <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
-                    </div>
-                
-                    <label for="comentarios">Producto a Cotizar:</label>
-                    <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
+                <div class="campo-doble">
+                    <label for="surface">Superficie:</label>
+                    <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
+                </div>
 
-                    <button type="submit">Enviar</button>
+                <label for="comentarios">Producto a Cotizar:</label>
+                <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
+
+                <button type="submit">Enviar</button>
                 {{ csrf_field() }}
             </form>
             <script src="/js/Formulario.js"></script>
-        </div>     
+        </div>
     </footer>
-    
 
 
 
 
-    </body>
+
+</body>
+
 </html>

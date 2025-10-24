@@ -6,38 +6,39 @@ body {
 }
 
 .RGHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between; 
-  background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
-  padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
+    padding: 12px 40px;
 }
 
 .RGHeader img {
-  height: 90px;
-  width: auto;
+    height: 90px;
+    width: auto;
 }
 
 .Fertilizantes {
-    flex: 1;                
-    text-align: center;     
+    flex: 1;
+    text-align: center;
 }
 
 .Fertilizantes h1 {
-  margin: 0;
-  font-size: 40px;
-  line-height: 1.1;
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.1;
 }
 
 .Fertilizantes .subtitle {
-  margin: 0;
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: #6a7a94;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #6a7a94;
 }
 
 
-.Titulos{
+/* Botones De Navegacions*/
+.Titulos {
 
     padding: 10px;
     margin: auto;
@@ -48,47 +49,51 @@ body {
 }
 
 .Botones:link {
-    color: #3c8d3f; 
-    text-decoration: none; 
+    color: #58ca5c;
+    text-decoration: none;
     font-size: 20px;
 }
 
 .Botones:visited {
-  color: #3d8f40; 
-  text-decoration: none; 
-  font-size: 20px;
+    color: #58ca5c;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .Botones:hover {
-    color: #2E7D32;   
+    color: #359439;
     text-decoration: none;
     font-size: 25px;
 }
 
 .Botones:active {
-  color: #1B5E20;   
-  text-decoration: none;
-  font-size: 25px;
+    color: #359439;
+    text-decoration: none;
+    font-size: 25px;
 }
 
+
+
 .Aniversario {
-  text-align: center;
-  margin-top: 5vh;
-  margin-bottom: 5vh;
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
 }
+
+/* Imagen*/
 
 .Aniversario img {
     width: 15%;
     height: auto;
-    display: block;   
-    margin: 0 auto;   
+    display: block;
+    margin: 0 auto;
 }
 
 .Aniversario .subtexto {
-    margin-top: 1rem;    
-    font-size: 1.2rem;   
-    font-weight: bold;   
-    color: #333;         
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
 }
 
 
@@ -128,7 +133,8 @@ label {
     text-align: left;
 }
 
-input, textarea {
+input,
+textarea {
     width: 80%;
     padding: 0.5em;
     border: 1px solid #ccc;
@@ -176,21 +182,21 @@ p2 {
 }
 
 .BProducto {
-    display: block;            
-    margin: 2vh auto;             
+    display: block;
+    margin: 2vh auto;
     padding: 1vh 2vw;
-    background-color: white;       
-    color: #28a745;             
-    border: 2px solid #28a745;     
+    background-color: white;
+    color: #28a745;
+    border: 2px solid #28a745;
     border-radius: 5px;
-    font-size: 1.2rem;             
+    font-size: 1.2rem;
     cursor: pointer;
     transition: all 0.3s ease;
 }
 
 .BProducto:hover {
-    background-color: #28a745;     
-    color: white;                  
+    background-color: #28a745;
+    color: white;
 }
 
 .p3 {
@@ -248,7 +254,7 @@ p2 {
 
 .fila-botones {
     display: flex;
-    justify-content: space-around; 
+    justify-content: space-around;
     align-items: flex-start;
     width: 150%;
     max-width: 1500px;
@@ -257,13 +263,13 @@ p2 {
 }
 
 .grupo-botones {
-    display: flex;               
-    flex-direction: column;     
-    align-items: center;        
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     justify-content: flex-start;
-    width: 100%;               
-    max-width: 400px;           
-    min-height: 100%;           
+    width: 100%;
+    max-width: 400px;
+    min-height: 100%;
     box-sizing: border-box;
 }
 
@@ -276,8 +282,8 @@ p2 {
     border-radius: 5px;
     font-size: 1vw;
     margin-bottom: 1vh;
-    align-self: center;    
-    
+    align-self: center;
+
 }
 
 .botones-secundarios {
@@ -322,45 +328,48 @@ p2 {
 }
 
 .Contacto {
-  background-color: chartreuse;
-  padding: 80px 20px;
+    background-color: chartreuse;
+    padding: 80px 20px;
 }
 
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
     margin-left: 10%;
-    display: flex;      
-    justify-content: space-between; 
+    display: flex;
+    justify-content: space-between;
     align-items: flex-start;
-    gap: 40px;    
+    gap: 40px;
 }
 
 .footer-logo {
-  width: 150px;   
-  height: auto;
-  margin-bottom: 20px;
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
 }
 
 .footer-info p {
-  margin: 5px 0;
-  font-size: 20px;
+    margin: 5px 0;
+    font-size: 20px;
 }
 
 .Form {
     display: none;
-    flex-wrap: wrap; /* Permite que los elementos pasen a la siguiente fila */
-    justify-content: space-between; 
+    flex-wrap: wrap;
+    /* Permite que los elementos pasen a la siguiente fila */
+    justify-content: space-between;
     gap: 16px;
     width: 100%;
-    max-width: 800px; /* Incrementa el ancho máximo del formulario para acomodar dos columnas */
-    margin: 0 auto; 
+    max-width: 800px;
+    /* Incrementa el ancho máximo del formulario para acomodar dos columnas */
+    margin: 0 auto;
 }
 
 .campo-doble {
     display: flex;
     flex-direction: column;
-    width: 48%; /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
+    width: 48%;
+    /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
 }
 
 /* Mantén las demás reglas del formulario */
@@ -379,10 +388,11 @@ p2 {
     font-size: 14px;
 }
 
-.Form textarea { 
-  min-height: 80px;
-  resize: vertical;
-  width: 100%; /* El campo de texto ocupa todo el ancho */
+.Form textarea {
+    min-height: 80px;
+    resize: vertical;
+    width: 100%;
+    /* El campo de texto ocupa todo el ancho */
 }
 
 .Form button {
@@ -395,7 +405,8 @@ p2 {
     font-weight: bold;
     cursor: pointer;
     transition: all 0.3s ease;
-    width: 100%; /* El botón ocupa todo el ancho */
+    width: 100%;
+    /* El botón ocupa todo el ancho */
 }
 
 .Form button:hover {
@@ -404,20 +415,20 @@ p2 {
 }
 
 .btn-enviar {
-  margin-top: 10px;
-  padding: 12px;
-  background: white;
-  border: 2px solid #28a745;
-  color: #28a745;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    margin-top: 10px;
+    padding: 12px;
+    background: white;
+    border: 2px solid #28a745;
+    color: #28a745;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn-enviar:hover {
-  background: #28a745;
-  color: white;
+    background: #28a745;
+    color: white;
 }
 
 .Cotizacion {

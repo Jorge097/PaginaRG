@@ -1,14 +1,14 @@
 body {
-    /*background-image: linear-gradient(rgb(176, 238, 181), white);*/
-    margin: 0vh;
-    padding: 0vh;
-    font-family: 'Times New Roman', Times, serif;
+  /*background-image: linear-gradient(rgb(176, 238, 181), white);*/
+  margin: 0vh;
+  padding: 0vh;
+  font-family: 'Times New Roman', Times, serif;
 }
 
 .RGHeader {
   display: flex;
   align-items: center;
-  justify-content: space-between; 
+  justify-content: space-between;
   background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
   padding: 12px 40px;
 }
@@ -19,8 +19,8 @@ body {
 }
 
 .Fertilizantes {
-    flex: 1;                
-    text-align: center;     
+  flex: 1;
+  text-align: center;
 }
 
 .Fertilizantes h1 {
@@ -37,122 +37,177 @@ body {
 }
 
 
-.Titulos{
+/* Botones De Navegacions*/
+.Titulos {
 
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    gap: 40px;
-    justify-content: flex-end;
-    padding-right: 12%;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  padding-right: 12%;
 }
 
 .Botones:link {
-    color: #3c8d3f; 
-    text-decoration: none; 
-    font-size: 20px;
+  color: #58ca5c;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .Botones:visited {
-  color: #3d8f40; 
-  text-decoration: none; 
+  color: #58ca5c;
+  text-decoration: none;
   font-size: 20px;
 }
 
 .Botones:hover {
-    color: #2E7D32;   
-    text-decoration: none;
-    font-size: 25px;
-}
-
-.Botones:active {
-  color: #1B5E20;   
+  color: #359439;
   text-decoration: none;
   font-size: 25px;
 }
 
+.Botones:active {
+  color: #359439;
+  text-decoration: none;
+  font-size: 25px;
+}
+
+/* Informacion*/
+
 .Somos {
-    margin-top: 1vh;
+  margin-top: 1vh;
 }
 
 .Header {
-    text-align: center;
-    padding: 2vh 10vw;
-    font-size: 30px;
+  text-align: center;
+  padding: 2vh 10vw;
+  font-size: 30px;
 }
 
-.Header p{
+.Header p {
 
-  font-size:large;
+  font-size: large;
 
 }
 
-/*Tarjetas*/
+/* TARJETAS */
 
-
-/* === CONTENEDOR DE PRODUCTOS EN GRID === */
 .contenedor-productos {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); /* 👈 Se ajusta solo */
+  grid-template-columns: repeat(3, 1fr);
   gap: 30px;
   padding: 40px 5vw;
   justify-items: center;
-  background: #f6f8f7; /* opcional para contraste */
+  background: #f6f8f7;
 }
 
-/* === TARJETAS INDIVIDUALES === */
+/* === TARJETA INDIVIDUAL  === */
+
 .tarjeta-producto {
+  position: relative;
+  overflow: hidden;
+  transition: 0.3s ease-in-out;
   border: 1px solid #070707;
   border-radius: 12px;
   background: #fff;
-  overflow: hidden;
   width: 100%;
-  max-width: 360px; /* 👈 tamaño visual más chico */
+  max-width: 360px;
+  height: 450px;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  margin: 1rem 0;
+}
+
+/* === PARTE VISIBLE === */
+
+.tarjeta-visible {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  background: #186218;
+  transition: 0.4s ease-in-out;
+  z-index: 2;
+}
+
+/* La imagen de fondo */
+
+.tarjeta-imagen-fondo {
+  width: 100%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  transition: 0.3s ease-in-out;
+}
+
+/* El título  */
+.tarjeta-titulo {
+  width: 100%;
+  height: 20%;
+  display: grid;
+  place-items: center;
+  background: #fff;
+  border-top: 1px solid #eee;
+}
+
+.tarjeta-titulo h3 {
+  font-size: 1.2rem;
+  color: #005a2e;
+  margin: 0;
+}
+
+
+/* === PARTE OCULTA === */
+.tarjeta-oculta {
+  display: grid;
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 75%;
+  height: 100%;
+  padding: 2vmin 3vmin;
+  background: #fff;
+  box-shadow: inset 1px 1px 15px 0 rgba(0, 0, 0, 0.4);
+  overflow-y: auto;
+  /* Scroll si el contenido es muy largo */
+  z-index: 1;
+  /* Está debajo de .tarjeta-visible */
+}
+
+/* === LA ANIMACIÓN HOVER === */
+
+.tarjeta-producto:hover .tarjeta-visible {
+  transform: translateX(-100%);
 }
 
 .tarjeta-producto:hover {
-  transform: translateY(-20px);
+
   box-shadow: 0 10px 18px rgba(0, 0, 0, 0.15);
 }
 
-/* === IMÁGENES === */
-.info-producto img {
-  width: 100%;
-  height: 200px; /* 👈 altura fija */
-  object-fit: cover;
-  display: block;
-}
 
-/* === DESCRIPCIÓN === */
+/* CLASES INTERNAS */
 .descripcion-producto {
   padding: 15px;
-  text-align: center;
-}
-
-.descripcion-producto h3 {
-  font-size: 1.2rem;
-  margin-bottom: 10px;
-  color: #005a2e;
+  text-align: left;
 }
 
 .descripcion-producto p {
   font-size: 0.95rem;
   color: #333;
+  line-height: 1.4;
 }
 
-/* === CULTIVOS === */
 .cultivos {
+  padding: 10px;
+  background: transparent;
   border-top: 1px solid #eee;
-  padding: 10px 15px 15px;
-  background: #fafafa;
 }
 
 .cultivos h4 {
   font-size: 0.95rem;
   color: #008542;
-  margin-bottom: 6px;
+  margin-bottom: 10px;
 }
 
 .cultivos ul {
@@ -177,6 +232,86 @@ body {
   transform: scale(1.1);
 }
 
+/* KEYFRAMES Y ANIMACIONES */
+/* Estas son las animaciones de CARGA, no de hover */
+.animate {
+  animation-duration: 0.7s;
+  animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
+  animation-fill-mode: backwards;
+}
+
+/* Pop In */
+.pop {
+  animation-name: pop;
+}
+
+@keyframes pop {
+  0% {
+    opacity: 0;
+    transform: scale(0.5, 0.5);
+  }
+
+  100% {
+    opacity: 1;
+    transform: scale(1, 1);
+  }
+}
+
+/* Slide Left */
+.slide-left {
+  animation-name: slide-left;
+}
+
+@keyframes slide-left {
+  0% {
+    opacity: 0;
+    transform: translate(-40px, 0);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+
+/* Clases de Delay (retraso) */
+.delay-1 {
+  animation-delay: 0.3s;
+}
+
+.delay-2 {
+  animation-delay: 0.6s;
+}
+
+.delay-3 {
+  animation-delay: 0.9s;
+}
+
+.delay-4 {
+  animation-delay: 1.2s;
+}
+
+.delay-5 {
+  animation-delay: 1.5s;
+}
+
+
+/* Para pantallas de Laptops a 2 COLUMNAS.*/
+@media (max-width: 991px) {
+  .contenedor-productos {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+/* Para pantallas de Celulares Con 1 Columna*/
+@media (max-width: 767px) {
+  .contenedor-productos {
+    grid-template-columns: 1fr;
+  }
+}
+
+
+
 
 /* Footer*/
 
@@ -186,17 +321,17 @@ body {
 }
 
 .footer-container {
-    max-width: 1200px;
-    margin: 0 auto;
-    margin-left: 10%;
-    display: flex;      
-    justify-content: space-between; 
-    align-items: flex-start;
-    gap: 40px;    
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-left: 10%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
 }
 
 .footer-logo {
-  width: 150px;   
+  width: 150px;
   height: auto;
   margin-bottom: 20px;
 }
@@ -207,59 +342,62 @@ body {
 }
 
 .Form {
-    display: none;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-    gap: 16px;
-    width: 100%;
-    max-width: 800px;
-    margin: 0 auto; 
+  display: none;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 16px;
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
 }
 
 .campo-doble {
-    display: flex;
-    flex-direction: column;
-    width: 48%; /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
+  display: flex;
+  flex-direction: column;
+  width: 48%;
+  /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
 }
 
 /* Mantén las demás reglas del formulario */
 .Form label {
-    font-weight: bold;
-    font-size: 14px;
-    margin-bottom: 4px;
-    color: #000;
+  font-weight: bold;
+  font-size: 14px;
+  margin-bottom: 4px;
+  color: #000;
 }
 
 .Form input,
 .Form textarea {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 14px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
 }
 
-.Form textarea { 
+.Form textarea {
   min-height: 80px;
   resize: vertical;
-  width: 100%; /* El campo de texto ocupa todo el ancho */
+  width: 100%;
+  /* El campo de texto ocupa todo el ancho */
 }
 
 .Form button {
-    margin-top: 10px;
-    padding: 12px;
-    background: white;
-    border: 2px solid #28a745;
-    color: #28a745;
-    border-radius: 5px;
-    font-weight: bold;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    width: 100%; /* El botón ocupa todo el ancho */
+  margin-top: 10px;
+  padding: 12px;
+  background: white;
+  border: 2px solid #28a745;
+  color: #28a745;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  width: 100%;
+  /* El botón ocupa todo el ancho */
 }
 
 .Form button:hover {
-    background: #28a745;
-    color: white;
+  background: #28a745;
+  color: white;
 }
 
 .btn-enviar {
@@ -280,14 +418,14 @@ body {
 }
 
 .Cotizacion {
-    margin: 2vh auto;
-    display: block;
-    text-align: center;
-    width: 30%;
-    min-width: 250px;
-    height: 5vh;
-    font-size: 1.5vw;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
+  margin: 2vh auto;
+  display: block;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  height: 5vh;
+  font-size: 1.5vw;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
 }
