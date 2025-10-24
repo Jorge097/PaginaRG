@@ -295,8 +295,13 @@
                 <div class="footer-info">
                     <p><b>Horario de Atención</b></p>
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
-                    <p>Tel: +52 (871) 329 7483</p>
-                    <p>Email: <a href="mailto:jjorgesilvaj@RgFoliares.com?Subject=Información">jjorgesilvaj@RgFoliares.com</a></p>
+                    <p><b>Tel:</b> +52 (871) 329 7483</p>
+                    <p><b>Email: </b><a href="mailto:jjorgesilvaj@RgFoliares.com?Subject=Información">jjorgesilvaj@RgFoliares.com</a></p>
+                    <p><b>¿Donde nos encontramos?</b></p>
+                    <p>Calle Cto. Torreón 246, Aviación San Ignacio,
+                        <br> 27016 Torreón, Coah.</p>
+                        <br>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.998819915458!2d-103.39466900227987!3d25.564884067305208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdb006d7984ff%3A0xdb89219ff953b8c5!2sRG%20Fertilizantes%20Foliares!5e0!3m2!1ses-419!2smx!4v1761276558728!5m2!1ses-419!2smx" width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
                 </div>
             </div>
 
