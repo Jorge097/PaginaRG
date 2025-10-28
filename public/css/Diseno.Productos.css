@@ -8,6 +8,7 @@ body {
 .RGHeader {
   display: flex;
   align-items: center;
+  border: 1px solid #000;
   justify-content: space-between;
   background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
   padding: 12px 40px;

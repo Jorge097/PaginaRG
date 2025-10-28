@@ -19,7 +19,7 @@
     <nav class="Titulos">
         <a class="Botones" href="{{ route('home') }}">Inicio</a>
         <a class="Botones" href="{{ route('Productos') }}">Productos</a>
-        <a class="Botones" href="¿Que hacemos?">¿Que hacemos?</a>
+        <a class="Botones" href="{{ route('Hacemos') }}">¿Que hacemos?</a>
         <a class="Botones" href="{{ route('Somos') }}">¿Quiénes Somos?</a>
         <a class="Botones" href="#ContactoFooter">Contactanos</a>
     </nav>
@@ -376,7 +376,7 @@
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
                     <p><b>Tel:</b> +52 (871) 329 7483</p>
                     <p><b>Email: </b><a
-                            href="mailto:jjorgesilvaj@RgFoliares.com?Subject=Información">jjorgesilvaj@RgFoliares.com</a>
+                            href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a>
                     </p>
                     <p><b>¿Donde nos encontramos?</b></p>
                     <p>Calle Cto. Torreón 246, Aviación San Ignacio,
@@ -435,7 +435,7 @@
             </form>
 
             <script src="/js/Formulario.js"></script>
-            < </div>
+        </div>
 
     </footer>
 

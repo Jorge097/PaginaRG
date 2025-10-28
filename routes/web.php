@@ -17,9 +17,9 @@ Route::get('/productos', function () {
 })->name('Productos');
 
 // Pagina Que Hacemos?
-Route::get('/que-hacemos', function () {
-    return view('Pagina.QueHacemos');
-})->name('que-hacemos');
+Route::get('/hacemos', function () {
+    return view('Pagina.Hacemos');
+})->name('Hacemos');
 
 // Pagina Quienes Somos
 Route::get('/somos', function () {

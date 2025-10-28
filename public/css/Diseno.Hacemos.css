@@ -1,3 +1,11 @@
+/*Cuerpo de la pagina*/
+
+body {
+    margin: 0vh;
+    padding: 0vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
 /*Header */
 
 .RGHeader {
@@ -66,99 +74,12 @@
     font-size: 25px;
 }
 
-/*Cuerpo de la pagina*/
-
-body {
-    margin: 0vh;
-    padding: 0vh;
-    font-family: 'Times New Roman', Times, serif;
-}
-
-.Somos {
-    padding: 40px 20px;
-    background-color: #fff;
-    
-}
-
-/* Las 3 Columnas De Informacion*/
-
-.Header-Container {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
-    margin-bottom: 50px;
-
-}
-
-.Bloque {
-    box-sizing: border-box;
-}
-
-.Bloque h2 {
-    margin-top: 0;
-    margin-bottom: 10px;
-    font-size: 1.5em;
-    color: #000;
-    display: inline-block;
-    padding-bottom: 5px;
-
-}
-
-.Bloque p {
-    margin: 0;
-    line-height: 1.6;
-    padding: 15px;
-    height: 100%;
-    font-size: 1.5em;
-    background-image: linear-gradient(rgb(223, 255, 225), rgb(144, 250, 172));
-}
-
-/* Colores de bordes para cada H2 */
-.QuienesSomos h2 {
-    border-bottom: 3px solid #0056b3;
-}
-
-.Mision h2 {
-    border-bottom: 3px solid red;
-}
-
-.Vision h2 {
-    border-bottom: 3px solid rgb(3, 133, 31);
-}
+/* Aqui termina Header*/
 
 
-/* LOS VALORES */
 
-.Valores-Container {
-    width: 100%;
-    text-align: center;
-    margin-top: 100px;
-}
 
-.Valores-Container h2 {
-    font-size: 3em;
-    border: none;
-    padding-bottom: 0;
-}
 
-.Valores-Container ul {
-    list-style: none;
-    padding: 0;
-    margin: 20px auto;
-    width: 30%;
-    text-align: left;
-    display: grid;
-    grid-template-columns: auto auto;
-    grid-template-rows: repeat(4, auto);
-    grid-auto-flow: column;
-    gap: 5px 40px;
-}
-
-.Valores-Container ul li {
-    padding: 8px 0;
-    font-weight: bold;
-    font-size: 1.4em;
-}
 
 /* Footer*/
 
