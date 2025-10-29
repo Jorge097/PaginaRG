@@ -27,6 +27,66 @@
 
     <!-- Descripcion e informacion -->
 
+    <div class="Hacemos">
+        <div class="TituloInfo">
+            <h2>Fertilizantes Para El Suelo</h2>
+            <div class="Informacion">
+                <img src="/Img/Dron.jpg" alt="Dron">
+                <p>
+                    Un suelo fértil y equilibrado es la base de una cosecha rentable, año tras año. Nuestros
+                    fertilizantes y acondicionadores para el suelo están formulados no solo para nutrir, sino para
+                    restaurar y mejorar la estructura y biología de su tierra. Basados en los resultados de sus
+                    análisis, creamos mezclas que corrigen desbalances de pH, desbloquean nutrientes atrapados, mejoran
+                    la retención de agua y fomentan un sistema de raíces fuerte y saludable. Nutrimos la base para que
+                    toda su planta pueda prosperar.
+                </p>
+            </div>
+        </div>
+
+        <div class="TituloInfo">
+            <h2>Fertilizantes Foliares</h2>
+            <div class="Informacion">
+                <img src="/Img/Dron.jpg" alt="Dron">
+                <p>
+                    Cuando su cultivo necesita una respuesta rápida, la nutrición foliar es la solución. Nuestros
+                    fertilizantes foliares están diseñados con ingredientes de la más alta calidad para una máxima y
+                    rápida absorción. Actúan como una "inyección" directa de nutrientes clave permitiendo corregir
+                    deficiencias de manera casi inmediata, fortalecer laplanta en etapas críticas y ayudarla a
+                    superar periodos de estrés. Es nutrición de precisión, justo cuando más se necesita.
+                </p>
+            </div>
+        </div>
+
+        <div class="TituloInfo">
+            <h2>Asistencia Técnica</h2>
+            <div class="Informacion">
+                <img src="/Img/AnalisisNueces.jpg" alt="Analisis" id="Nueces">
+                <p>
+                    Los datos y los productos son solo herramientas; nuestra verdadera fortaleza es la experiencia para
+                    usarlos. Nuestro equipo de ingenieros agrónomos no solo le entrega un reporte; lo acompañamos en el
+                    campo. Le ayudamos a interpretar los resultados, a diseñar un programa de fertilización completo
+                    y a tomar las decisiones correctas en el momento oportuno.Somos sus asesores estratégicos,
+                    dedicados a maximizar el potencial de su cosecha.
+                </p>
+            </div>
+        </div>
+
+        <div class="TituloInfo">
+            <h2>Análisis de Agua, Suelo y Planta</h2>
+            <div class="Informacion">
+                <img src="/Img/Laboratorio.jpg" alt="Laboratorio">
+                <p>
+                    El éxito de su cultivo no empieza en la planta, empieza en el diagnóstico. No creemos en soluciones
+                    genéricas. Nuestro servicio de análisis es el punto de partida para un plan de nutrición
+                    verdaderamente eficaz. Analizamos científicamente su agua de riego, la composición de su suelo y el
+                    tejido foliar para descubrir con precisión qué nutrientes le sobran, cuáles le faltan y qué
+                    bloqueos impiden su absorción. Estos datos son el "mapa" exacto que usamos para diseñar una solución
+                    a la medida de su campo.
+                </p>
+            </div>
+        </div>
+    </div>
+
 
     <!-- Información del footer -->
 
@@ -39,7 +99,7 @@
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
                     <p><b>Tel:</b> +52 (871) 329 7483</p>
                     <p><b>Email: </b><a
-                           href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a>
+                            href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a>
                     </p>
                     <p><b>¿Donde nos encontramos?</b></p>
                     <p>Calle Cto. Torreón 246, Aviación San Ignacio,

@@ -77,8 +77,50 @@ body {
 /* Aqui termina Header*/
 
 
+.Hacemos {
+    text-align: center;
+    padding: 40px 0;
+}
 
+.TituloInfo {
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px;
+}
 
+.TituloInfo h2 {
+    font-size: 40px;
+    padding: 10PX;
+}
+
+.Informacion {
+    display: flex;         
+    align-items: center;  
+    gap: 30px;             
+}
+
+.Informacion img {
+    min-width: 300px;
+    width: 40%;          
+    height: 300px;
+    object-fit: cover;        
+    border-radius: 8px;  
+}
+
+#Nueces {
+
+    object-position: bottom;
+
+}
+
+.Informacion p {
+    flex: 1;
+    font-size: 1.3rem; 
+    flex-shrink: 0;
+    line-height: 1.6;  
+    text-align: justify;
+}
 
 
 /* Footer*/
