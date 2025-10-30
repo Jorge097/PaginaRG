@@ -38,46 +38,46 @@
             <h2>Nutrición de Precisión. Cosechas de Calidad</h2>
             <p>
                 En RGFoliares, creemos que cada cultivo es único. Por eso, hemos diseñado una línea
-                de fertilizantes foliares de alta absorción y acondicionadores de suelo 100% naturales. 
-                Nuestros productos están formulados científicamente para fortalecer tu producción, cuidar 
-                el medio ambiente y garantizar resultados visibles, con un enfoque especializado en nogales 
+                de fertilizantes foliares de alta absorción y acondicionadores de suelo 100% naturales.
+                Nuestros productos están formulados científicamente para fortalecer tu producción, cuidar
+                el medio ambiente y garantizar resultados visibles, con un enfoque especializado en nogales
                 y los cultivos clave de la región. No aceptes menos que la nutrición exacta que tu cultivo necesita.
             </p>
 
             <a class="BProducto" href="{{ route('Productos') }}">Productos</a>
         </div>
-    </div>
 
-    <div class="Somos">
+
+
         <div class="Header">
             <h2>Tu Cosecha en Manos Expertas: Del Análisis Científico a la Nutrición Total</h2>
             <p>
-                Con 16 años de trayectoria sólida en la región Norte, hemos aprendido que una cosecha 
-                extraordinaria no es casualidad; es el resultado de la ciencia, la precisión y la experiencia. 
-                
-                En RG Foliares, no solo te vendemos fertilizantes; te ofrecemos una solución integral. 
-                Todo comienza con nuestro diagnóstico de precisión: realizamos análisis avanzados de agua, 
-                suelo y planta para entender exactamente qué necesita tu cultivo y qué le sobra a tu tierra. 
-                
+                Con 16 años de trayectoria sólida en la región Norte, hemos aprendido que una cosecha
+                extraordinaria no es casualidad; es el resultado de la ciencia, la precisión y la experiencia.
+
+                En RG Foliares, no solo te vendemos fertilizantes; te ofrecemos una solución integral.
+                Todo comienza con nuestro diagnóstico de precisión: realizamos análisis avanzados de agua,
+                suelo y planta para entender exactamente qué necesita tu cultivo y qué le sobra a tu tierra.
+
                 Basados en esos datos, nuestro equipo de expertos te brinda asistencia técnica personalizada y
-                diseña un plan de nutrición a medida, utilizando nuestra gama premium de fertilizantes foliares 
+                diseña un plan de nutrición a medida, utilizando nuestra gama premium de fertilizantes foliares
                 de alta absorción y acondicionadores de suelo que garantizan resultados visibles.
             </p>
 
             <a class="BProducto" href="{{ route('Hacemos') }}">¿Que hacemos?</a>
         </div>
-    </div>
 
 
-    <div class="Somos">
+
+
         <div class="Header">
             <h2>Más que Productos: Un Compromiso con Tu Tierra y Tu Futuro</h2>
             <p>
-                En RGFoliares, nuestro éxito no se mide solo en cosechas, sino en la confianza a 
-                largo plazo que construimos contigo. Nuestros 16 años de liderazgo en la región se 
-                basan en una filosofía de trabajo clara y un compromiso inquebrantable con el campo. 
-                Nuestra Misión, Visión y Valores no son solo palabras; son la brújula que guía cada análisis, 
-                cada asesoría y cada producto que desarrollamos. Representan nuestra promesa de ser el socio 
+                En RGFoliares, nuestro éxito no se mide solo en cosechas, sino en la confianza a
+                largo plazo que construimos contigo. Nuestros 16 años de liderazgo en la región se
+                basan en una filosofía de trabajo clara y un compromiso inquebrantable con el campo.
+                Nuestra Misión, Visión y Valores no son solo palabras; son la brújula que guía cada análisis,
+                cada asesoría y cada producto que desarrollamos. Representan nuestra promesa de ser el socio
                 estratégico que tu cultivo necesita para prosperar de forma sostenible.
 
             </p>
@@ -85,6 +85,7 @@
             <a class="BProducto" href="{{ route('Somos') }}">¿Quiénes Somos?</a>
         </div>
     </div>
+
 
     <!-- Footer -->
 

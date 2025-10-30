@@ -87,10 +87,25 @@ body {
 .Aniversario img {
     width: 90%;
     height: 400px;
-    object-fit:cover;
+    object-fit: cover;
     object-position: 50% 80%;
     display: block;
     margin: 0 auto;
+    animation: fading 5s infinite
+}
+
+@keyframes fading {
+    0% {
+        opacity: 0
+    }
+
+    50% {
+        opacity: 1
+    }
+
+    100% {
+        opacity: 0
+    }
 }
 
 .Aniversario .subtexto {
@@ -178,26 +193,45 @@ p2 {
 .Somos {
     margin-top: 2vh;
     padding: 1%;
+    position: relative;
+    animation: animateimg 1s
 }
 
 /* Contenedor principal */
+
 .Header {
     text-align: center;
-    padding: 2vh 10vw;
+    padding: 2vh 5vw;
     border: 2px solid #048d09;
+    border-radius: 20px;
+    margin-bottom: 60px;
 }
 
 /* Título */
 .Header h2 {
-    font-size: 40px; 
+    font-size: 40px;
 }
 
 /*  Párrafo */
 .Header p {
     text-align: justify;
-    font-size: 2rem;   
-    line-height: 1.6;  
+    font-size: 2rem;
+    line-height: 1.6;
 }
+
+@keyframes animateimg {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+/* Botones De Donde Esta La Informacion*/
 
 .BProducto {
     display: block;
@@ -258,6 +292,8 @@ p2 {
     font-size: 1.2vw;
     text-align: justify;
 }
+
+/* Footer*/
 
 .contacto {
     font-size: 2vw;

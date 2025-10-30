@@ -8,11 +8,12 @@
 
 <body>
     <header class="RGHeader">
-        <img src="/Img/Logo2.png" alt="Logo">
+        <img src="/Img/Logo2.png" alt="Logo" />
         <div class="Fertilizantes">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
+        <img src="Img/Aniversario.png" alt="Aniversario">
     </header>
 
     <nav class="Titulos">

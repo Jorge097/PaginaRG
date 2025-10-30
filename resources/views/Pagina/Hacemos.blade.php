@@ -8,11 +8,12 @@
 
 <body>
     <header class="RGHeader">
-        <img src="/Img/Logo2.png" alt="Logo">
+        <img src="/Img/Logo2.png" alt="Logo" />
         <div class="Fertilizantes">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
+        <img src="Img/Aniversario.png" alt="Aniversario">
     </header>
 
     <nav class="Titulos">
@@ -63,9 +64,9 @@
                 <img src="/Img/AnalisisNueces.jpg" alt="Analisis" id="Nueces">
                 <p>
                     Los datos y los productos son solo herramientas; nuestra verdadera fortaleza es la experiencia para
-                    usarlos. Nuestro equipo de ingenieros agrónomos no solo le entrega un reporte; lo acompañamos en el
+                    usarlos. Nuestro equipo de ingenieros bioquímicos, no solo le entrega un reporte; lo acompañamos en el
                     campo. Le ayudamos a interpretar los resultados, a diseñar un programa de fertilización completo
-                    y a tomar las decisiones correctas en el momento oportuno.Somos sus asesores estratégicos,
+                    y a tomar las decisiones correctas en el momento oportuno. Somos sus asesores estratégicos,
                     dedicados a maximizar el potencial de su cosecha.
                 </p>
             </div>
