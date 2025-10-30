@@ -1,69 +1,69 @@
 /* Header */
 
 .RGHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
-  padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
+    padding: 12px 40px;
 }
 
 .RGHeader img {
-  height: 90px;
-  width: auto;
+    height: 90px;
+    width: auto;
 }
 
 .Titulo {
-  flex: 1;
-  text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
 .Titulo h1 {
-  margin: 0;
-  font-size: 40px;
-  line-height: 1.1;
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.1;
 }
 
 .Titulo .subtitle {
-  margin: 0;
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: #6a7a94;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #6a7a94;
 }
 
 
 /* Botones De Navegacions*/
 .Links {
-  padding: 10px;
-  margin: auto;
-  display: flex;
-  gap: 40px;
-  justify-content: flex-end;
-  padding-right: 12%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-right: 12%;
 }
 
 .Botones:link {
-  color: #58ca5c;
-  text-decoration: none;
-  font-size: 20px;
+    color: #58ca5c;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .Botones:visited {
-  color: #58ca5c;
-  text-decoration: none;
-  font-size: 20px;
+    color: #58ca5c;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .Botones:hover {
-  color: #359439;
-  text-decoration: none;
-  font-size: 25px;
+    color: #359439;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .Botones:active {
-  color: #359439;
-  text-decoration: none;
-  font-size: 25px;
+    color: #359439;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 /*Cuerpo de la pagina*/
@@ -74,20 +74,63 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-.Somos {
-    padding: 40px 20px;
-    background-color: #fff;
-    
+.Info {
+    animation: animateimg 3s
 }
 
-/* Las 3 Columnas De Informacion*/
+@keyframes animateimg {
+    from {
+        bottom: -300px;
+        opacity: 0
+    }
+
+    to {
+        bottom: 0;
+        opacity: 1
+    }
+}
+
+.Somos {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #fff;
+
+}
+
+.InfoArriba {
+    text-align: center;
+    justify-content: center;
+    padding: 20px;
+
+}
+
+.QuienesSomos {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.QuienesSomos h2 {
+    border-bottom: 3px solid #0056b3;
+    display: inline-block;
+    justify-content: center;
+    font-size: 3em;
+}
+
+.QuienesSomos p {
+    text-align: justify;
+    font-size: 1.7em;
+}
+
+/* Columnas De Informacion*/
 
 .Header-Container {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 25px;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 100px;
     margin-bottom: 50px;
-
+    max-width: 1100px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .Bloque {
@@ -111,12 +154,10 @@ body {
     height: 100%;
     font-size: 1.5em;
     background-image: linear-gradient(rgb(223, 255, 225), rgb(144, 250, 172));
+    text-align: justify;
 }
 
 /* Colores de bordes para cada H2 */
-.QuienesSomos h2 {
-    border-bottom: 3px solid #0056b3;
-}
 
 .Mision h2 {
     border-bottom: 3px solid red;

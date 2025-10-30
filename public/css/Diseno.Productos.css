@@ -193,7 +193,7 @@ body {
 }
 
 .descripcion-producto p {
-  font-size: 0.95rem;
+  font-size: 1.2rem;
   color: #333;
   line-height: 1.4;
 }
@@ -207,7 +207,6 @@ body {
 .cultivos h4 {
   font-size: 0.95rem;
   color: #008542;
-  margin-bottom: 10px;
 }
 
 .cultivos ul {
@@ -217,6 +216,7 @@ body {
   gap: 6px;
   padding: 0;
   margin: 0;
+  margin-bottom: 30px;
 }
 
 .cultivos li {
@@ -224,7 +224,7 @@ body {
   color: #004d26;
   border-radius: 20px;
   padding: 5px 12px;
-  font-size: 0.85rem;
+  font-size: 1rem;
   transition: transform 0.3s ease;
 }
 
@@ -235,7 +235,7 @@ body {
 /* KEYFRAMES Y ANIMACIONES */
 /* Estas son las animaciones de CARGA, no de hover */
 .animate {
-  animation-duration: 0.7s;
+  animation-duration: .5s;
   animation-timing-function: cubic-bezier(0.26, 0.53, 0.74, 1.48);
   animation-fill-mode: backwards;
 }

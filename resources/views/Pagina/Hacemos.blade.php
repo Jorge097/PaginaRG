@@ -32,7 +32,7 @@
         <div class="TituloInfo">
             <h2>Fertilizantes Para El Suelo</h2>
             <div class="Informacion">
-                <img src="/Img/FertilizantesSuelo.jpg" alt="Fertilizantes Para Suelo" id="Suelo">
+                <img src="/Img/Dron.jpg" alt="Dron" id="Dron">
                 <p>
                     Un suelo fértil y bien nutrido es la base para obtener los mejores rendimientos de su cultivo. <br>
                     Nuestros fertilizantes líquidos : <b> 8 - 24 - 2 y N 20 </b>, son ideales para la aportación de
@@ -60,8 +60,10 @@
                     esenciales
                     para el desarrollo óptimo de cualquier cultivo, así mismo, contamos con nutrientes de manera
                     individual para correcciones muy específicas , tales como <b> Zinc, Fierro, Magnesio, Cobre,
-                    Manganeso,Potasio, Niquel </b> entre otros, los cuales son elaborados con la materia prima de mayor
-                    calidad y contienen agentes quelatantes para una mejor absorción y asimilación nutrimental en la planta. <br>
+                    Manganeso,Potasio, Niquel </b> entre otros, los cuales son elaborados con la materia prima de
+                    mayor
+                    calidad y contienen agentes quelatantes para una mejor absorción y asimilación nutrimental en la
+                    planta. <br>
                     Recuerde que la fertilización foliar es la manera más rápida para corregir deficiencias de
                     micronutrientes en su cultivo. <br>
                     Es nutrición de precisión justo cuando el desarrollo de la planta lo requiere.
@@ -86,16 +88,21 @@
         </div>
 
         <div class="TituloInfo">
-            <h2>Análisis de Agua, Suelo y Planta</h2>
+            <h2>Laboratorio de Suelo, Agua y Planta</h2>
             <div class="Informacion">
                 <img src="/Img/Laboratorio.jpg" alt="Laboratorio">
                 <p>
-                    El éxito de su cultivo no empieza en la planta, empieza en el diagnóstico. No creemos en soluciones
-                    genéricas. Nuestro servicio de análisis es el punto de partida para un plan de nutrición
-                    verdaderamente eficaz. Analizamos científicamente su agua de riego, la composición de su suelo y el
-                    tejido foliar para descubrir con precisión qué nutrientes le sobran, cuáles le faltan y qué
-                    bloqueos impiden su absorción. Estos datos son el "mapa" exacto que usamos para diseñar una solución
-                    a la medida de su campo.
+                    Nuestra empresa cuenta con una herramienta más al servicio del productor, le ofrecemos el servicio
+                    de <b>Laboratorio Agropecuario.</b> <br>
+                    Es importante considerar que el éxito de su cultivo no empieza en la planta, sino en el análisis del
+                    suelo y agua donde se establecerá. <br>
+                    Realizamos un diagnóstico preciso y en base a los resultados le ofrecemos una propuesta de
+                    fertilización a la medida de las necesidades de su cultivo, acorde a las características del suelo,
+                    para obtener los mejores resultados de cosecha.<br>
+                    En nuestro <b>Laboratorio Agropecuario </b> llevamos a cabo los análisis de acuerdo a las <b>NOM</b> vigentes para
+                    cada tipo de análisis.<br>
+                    De igual manera nuestro personal cuenta con 30 años de experiencia en manejo y análisis de muestras,
+                    lo que permite una mayor confianza para el productor.
                 </p>
             </div>
         </div>

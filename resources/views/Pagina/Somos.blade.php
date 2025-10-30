@@ -27,9 +27,9 @@
 
 
     <!-- Descripcion e informacion de nosotros -->
-    <div class="Somos">
-        <div class="Header-Container">
-            <div class="Bloque QuienesSomos">
+    <div Class="Info">
+        <div class="InfoArriba">
+            <div class="QuienesSomos">
                 <h2>¿Quienes Somos?</h2>
                 <p>En <b>RG FOLIARES</b> somos una empresa especialista en Nutrición Agrícola. El gran valor
                     que nuestra empresa aporta al sector radica en conjugar el conocimiento químico con
@@ -37,42 +37,45 @@
                     Nuestro equipo técnico está compuesto por personal con más de 20 años de
                     experiencia en el manejo de Suelos, Agua y Planta, para brindar al productor un
                     servicio de calidad y confianza en nuestros productos.
-                    Somos expertos en el manejo del sistema <b> AGUA - SUELO - PLANTA</b>
-                </p>
-            </div>
-
-            <div class="Bloque Mision">
-                <h2>Misión</h2>
-                <p>Ser una empresa del área Agropecuaria que le permita al productor tener una
-                    alternativa de fertilizantes de calidad y confianza, necesaria para poder satisfacer las
-                    necesidades de nutrición de sus cultivos.
-                </p>
-            </div>
-
-            <div class="Bloque Vision">
-                <h2>Visión</h2>
-                <p>Ser una empresa competitiva con presencia nacional, que ofrezca productos de calidad
-                    que satisfagan las necesidades de los productores. Así como ser parte del desarrollo
-                    económico de la región y del País
+                    Somos expertos en el manejo del sistema <b> AGUA - SUELO - PLANTA.</b>
                 </p>
             </div>
         </div>
 
-        <div class="Valores-Container">
-            <h2>Valores</h2>
-            <ul>
-                <li>HONESTIDAD</li>
-                <li>CALIDAD</li>
-                <li>COMPETITIVIDAD E INNOVACION DE TECNOLOGIA</li>
-                <li>RESPONSABILIDAD SOCIAL</li>
-                <li>CONFIANZA</li>
-                <li>RESPETO</li>
-                <li>INTEGRIDAD</li>
-            </ul>
+        <div class="Somos">
+            <div class="Header-Container">
+                <div class="Bloque Mision">
+                    <h2>Misión</h2>
+                    <p>Ser una empresa del área Agropecuaria que le permita al productor tener una
+                        alternativa de fertilizantes de calidad y confianza, necesaria para poder satisfacer las
+                        necesidades de nutrición de sus cultivos.
+                    </p>
+                </div>
+
+                <div class="Bloque Vision">
+                    <h2>Visión</h2>
+                    <p>Ser una empresa competitiva con presencia nacional, que ofrezca productos de calidad
+                        que satisfagan las necesidades de los productores. Así como ser parte del desarrollo
+                        económico de la región y del País
+                    </p>
+                </div>
+            </div>
+
+            <div class="Valores-Container">
+                <h2>Valores</h2>
+                <ul>
+                    <li>HONESTIDAD</li>
+                    <li>CALIDAD</li>
+                    <li>COMPETITIVIDAD E INNOVACION DE TECNOLOGIA</li>
+                    <li>RESPONSABILIDAD SOCIAL</li>
+                    <li>CONFIANZA</li>
+                    <li>RESPETO</li>
+                    <li>INTEGRIDAD</li>
+                </ul>
+            </div>
         </div>
     </div>
-
-    <!-- Información del footer -->
+    <!-- Footer -->
 
     <footer class="Contacto" id="ContactoFooter">
         <div class="footer-container">
