@@ -9,18 +9,18 @@
 <body>
     <header class="RGHeader">
         <img src="/Img/Logo2.png" alt="Logo" />
-        <div class="Fertilizantes">
+        <div class="Titulo">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
         <img src="Img/Aniversario.png" alt="Aniversario">
     </header>
 
-    <nav class="Titulos">
+    <nav class="Links">
         <a class="Botones" href="{{ route('home') }}">Inicio</a>
         <a class="Botones" href="{{ route('Productos') }}">Productos</a>
         <a class="Botones" href="{{ route('Hacemos') }}">¿Que hacemos?</a>
-        <a class="Botones" href="{{ route('Somos') }}">¿Quiénes Somos?</a>
+        <a class="Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
         <a class="Botones" href="#ContactoFooter">Contactanos</a>
     </nav>
 
@@ -32,14 +32,18 @@
         <div class="TituloInfo">
             <h2>Fertilizantes Para El Suelo</h2>
             <div class="Informacion">
-                <img src="/Img/Dron.jpg" alt="Dron">
+                <img src="/Img/FertilizantesSuelo.jpg" alt="Fertilizantes Para Suelo" id="Suelo">
                 <p>
-                    Un suelo fértil y equilibrado es la base de una cosecha rentable, año tras año. Nuestros
-                    fertilizantes y acondicionadores para el suelo están formulados no solo para nutrir, sino para
-                    restaurar y mejorar la estructura y biología de su tierra. Basados en los resultados de sus
-                    análisis, creamos mezclas que corrigen desbalances de pH, desbloquean nutrientes atrapados, mejoran
-                    la retención de agua y fomentan un sistema de raíces fuerte y saludable. Nutrimos la base para que
-                    toda su planta pueda prosperar.
+                    Un suelo fértil y bien nutrido es la base para obtener los mejores rendimientos de su cultivo. <br>
+                    Nuestros fertilizantes líquidos : <b> 8 - 24 - 2 y N 20 </b>, son ideales para la aportación de
+                    Fósforo y
+                    Nitrógeno para cualquier cultivo. <br>
+                    Nuestras propuestas de fertilización se basan en los resultados del análisis de Suelo y Agua, para
+                    obtener los mejores rendimientos de su cultivo. <br>
+                    De igual manera, para corregir problemas que se presenten en el aspecto físico químico del Suelo, le
+                    ofrecemos el restaurador de suelo Soil Restore , el cual mejora la estructura y permeabilidad del
+                    suelo, llevando a cabo el desbloqueo de nutrientes y favoreciendo el desarrollo radicular de la
+                    planta, para obtener mayores rendimientos en su cosecha.
                 </p>
             </div>
         </div>
@@ -47,13 +51,20 @@
         <div class="TituloInfo">
             <h2>Fertilizantes Foliares</h2>
             <div class="Informacion">
-                <img src="/Img/Dron.jpg" alt="Dron">
+                <img src="/Img/FertilizantesFoliares.jpg" alt="Fertilizantes Foliares" id="Foliares">
                 <p>
-                    Cuando su cultivo necesita una respuesta rápida, la nutrición foliar es la solución. Nuestros
-                    fertilizantes foliares están diseñados con ingredientes de la más alta calidad para una máxima y
-                    rápida absorción. Actúan como una "inyección" directa de nutrientes clave permitiendo corregir
-                    deficiencias de manera casi inmediata, fortalecer laplanta en etapas críticas y ayudarla a
-                    superar periodos de estrés. Es nutrición de precisión, justo cuando más se necesita.
+                    Cuando necesitamos corregir deficiencias detectadas mediante un análisis de tejido vegetal o
+                    visualmente, la mejor opción es utilizar fertilizantes foliares, en <b> RG Fertilizantes Foliares
+                    </b>
+                    contamos con el <b> Fertilizante Foliar Complete Mix </b>, el cual contiene más de 15 nutrientes
+                    esenciales
+                    para el desarrollo óptimo de cualquier cultivo, así mismo, contamos con nutrientes de manera
+                    individual para correcciones muy específicas , tales como <b> Zinc, Fierro, Magnesio, Cobre,
+                    Manganeso,Potasio, Niquel </b> entre otros, los cuales son elaborados con la materia prima de mayor
+                    calidad y contienen agentes quelatantes para una mejor absorción y asimilación nutrimental en la planta. <br>
+                    Recuerde que la fertilización foliar es la manera más rápida para corregir deficiencias de
+                    micronutrientes en su cultivo. <br>
+                    Es nutrición de precisión justo cuando el desarrollo de la planta lo requiere.
                 </p>
             </div>
         </div>
@@ -63,11 +74,13 @@
             <div class="Informacion">
                 <img src="/Img/AnalisisNueces.jpg" alt="Analisis" id="Nueces">
                 <p>
-                    Los datos y los productos son solo herramientas; nuestra verdadera fortaleza es la experiencia para
-                    usarlos. Nuestro equipo de ingenieros bioquímicos, no solo le entrega un reporte; lo acompañamos en el
-                    campo. Le ayudamos a interpretar los resultados, a diseñar un programa de fertilización completo
-                    y a tomar las decisiones correctas en el momento oportuno. Somos sus asesores estratégicos,
-                    dedicados a maximizar el potencial de su cosecha.
+                    Nuestro personal cuenta con 30 años de experiencia en el manejo del sistema <b> Agua - Suelo -
+                        Planta </b>
+                    para ofrecerle la confianza necesaria en el seguimiento de su cultivo desde el muestreó y análisis
+                    de Suelo y Agua, propuesta de fertilización, siembra, desarrollo y cosecha. <br>
+                    Nuestro personal está capacitado para la interpretación de los resultados de los análisis de Suelo,
+                    Agua y Tejido Vegetal ( foliar ) con el fin de aprovechar al máximo la herramienta y datos del
+                    análisis, con el fin de lograr el mayor potencial de su cultivo.
                 </p>
             </div>
         </div>

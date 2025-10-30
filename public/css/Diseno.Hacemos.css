@@ -6,76 +6,75 @@ body {
     font-family: 'Times New Roman', Times, serif;
 }
 
-/*Header */
+/* Header */
 
 .RGHeader {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
-    padding: 12px 40px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
+  padding: 12px 40px;
 }
 
 .RGHeader img {
-    height: 90px;
-    width: auto;
+  height: 90px;
+  width: auto;
 }
 
-.Fertilizantes {
-    flex: 1;
-    text-align: center;
+.Titulo {
+  flex: 1;
+  text-align: center;
 }
 
-.Fertilizantes h1 {
-    margin: 0;
-    font-size: 40px;
-    line-height: 1.1;
+.Titulo h1 {
+  margin: 0;
+  font-size: 40px;
+  line-height: 1.1;
 }
 
-.Fertilizantes .subtitle {
-    margin: 0;
-    font-size: 15px;
-    letter-spacing: 2px;
-    color: #6a7a94;
+.Titulo .subtitle {
+  margin: 0;
+  font-size: 15px;
+  letter-spacing: 2px;
+  color: #6a7a94;
 }
+
 
 /* Botones De Navegacions*/
-.Titulos {
-
-    padding: 10px;
-    margin: auto;
-    display: flex;
-    gap: 40px;
-    justify-content: flex-end;
-    padding-right: 12%;
+.Links {
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  gap: 40px;
+  justify-content: flex-end;
+  padding-right: 12%;
 }
 
 .Botones:link {
-    color: #58ca5c;
-    text-decoration: none;
-    font-size: 20px;
+  color: #58ca5c;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .Botones:visited {
-    color: #58ca5c;
-    text-decoration: none;
-    font-size: 20px;
+  color: #58ca5c;
+  text-decoration: none;
+  font-size: 20px;
 }
 
 .Botones:hover {
-    color: #359439;
-    text-decoration: none;
-    font-size: 25px;
+  color: #359439;
+  text-decoration: none;
+  font-size: 25px;
 }
 
 .Botones:active {
-    color: #359439;
-    text-decoration: none;
-    font-size: 25px;
+  color: #359439;
+  text-decoration: none;
+  font-size: 25px;
 }
 
-/* Aqui termina Header*/
-
+/*Informacion*/
 
 .Hacemos {
     text-align: center;
@@ -108,6 +107,19 @@ body {
     height: 300px;
     object-fit: cover;
     border-radius: 8px;
+}
+
+#Suelo {
+
+    object-position: 70%  70%;
+
+}
+
+
+#Foliares {
+
+    object-position: 50%  70%;
+
 }
 
 #Nueces {

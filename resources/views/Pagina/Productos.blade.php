@@ -10,23 +10,23 @@
 
     <header class="RGHeader">
         <img src="/Img/Logo2.png" alt="Logo" />
-        <div class="Fertilizantes">
+        <div class="Titulo">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
         <img src="Img/Aniversario.png" alt="Aniversario">
     </header>
 
-    <nav class="Titulos">
+    <nav class="Links">
         <a class="Botones" href="{{ route('home') }}">Inicio</a>
         <a class="Botones" href="{{ route('Productos') }}">Productos</a>
         <a class="Botones" href="{{ route('Hacemos') }}">¿Que hacemos?</a>
-        <a class="Botones" href="{{ route('Somos') }}">¿Quiénes Somos?</a>
+        <a class="Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
         <a class="Botones" href="#ContactoFooter">Contactanos</a>
     </nav>
 
-    <div class="Somos">
-        <div class="Header">
+    <div class="Product">
+        <div class="Tittle">
             <h2>Productos Para Tus Cultivos</h2>
             <p>
                 En <b>RGFoliares</b> transformamos la forma de nutrir tus cultivos.

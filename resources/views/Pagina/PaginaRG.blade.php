@@ -9,14 +9,14 @@
 <body class="body">
     <header class="RGHeader">
         <img src="/Img/Logo2.png" alt="Logo" />
-        <div class="Fertilizantes">
+        <div class="Titulo">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
         <img src="Img/Aniversario.png" alt="Aniversario">
     </header>
 
-    <nav class="Titulos">
+    <nav class="Links">
         <a class="Botones" href="{{ route('home') }}">Inicio</a>
         <a class="Botones" href="{{ route('Productos') }}">Productos</a>
         <a class="Botones" href="{{ route('Hacemos') }}">¿Que hacemos?</a>
@@ -25,7 +25,7 @@
     </nav>
 
 
-    <div class="Aniversario">
+    <div class="Welcome">
         <img src="Img/AnalisisNueces.jpg" alt="Analisis De Nueces">
         <p class="subtexto">16 Años Nutriendo Sus Cultivos</p>
     </div>
@@ -33,8 +33,8 @@
 
     <!-- NUEVA INFORAMCION PARA LA PAGINA-- -->
 
-    <div class="Somos">
-        <div class="Header">
+    <div class="CompleteInfo">
+        <div class="Info">
             <h2>Nutrición de Precisión. Cosechas de Calidad</h2>
             <p>
                 En RGFoliares, creemos que cada cultivo es único. Por eso, hemos diseñado una línea
@@ -49,7 +49,7 @@
 
 
 
-        <div class="Header">
+        <div class="Info">
             <h2>Tu Cosecha en Manos Expertas: Del Análisis Científico a la Nutrición Total</h2>
             <p>
                 Con 16 años de trayectoria sólida en la región Norte, hemos aprendido que una cosecha
@@ -70,7 +70,7 @@
 
 
 
-        <div class="Header">
+        <div class="Info">
             <h2>Más que Productos: Un Compromiso con Tu Tierra y Tu Futuro</h2>
             <p>
                 En RGFoliares, nuestro éxito no se mide solo en cosechas, sino en la confianza a

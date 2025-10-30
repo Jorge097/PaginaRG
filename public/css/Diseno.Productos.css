@@ -5,10 +5,11 @@ body {
   font-family: 'Times New Roman', Times, serif;
 }
 
+/* Header */
+
 .RGHeader {
   display: flex;
   align-items: center;
-  border: 1px solid #000;
   justify-content: space-between;
   background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
   padding: 12px 40px;
@@ -19,18 +20,18 @@ body {
   width: auto;
 }
 
-.Fertilizantes {
+.Titulo {
   flex: 1;
   text-align: center;
 }
 
-.Fertilizantes h1 {
+.Titulo h1 {
   margin: 0;
   font-size: 40px;
   line-height: 1.1;
 }
 
-.Fertilizantes .subtitle {
+.Titulo .subtitle {
   margin: 0;
   font-size: 15px;
   letter-spacing: 2px;
@@ -39,8 +40,7 @@ body {
 
 
 /* Botones De Navegacions*/
-.Titulos {
-
+.Links {
   padding: 10px;
   margin: auto;
   display: flex;
@@ -75,17 +75,17 @@ body {
 
 /* Informacion*/
 
-.Somos {
+.Product {
   margin-top: 1vh;
 }
 
-.Header {
+.Tittle {
   text-align: center;
   padding: 2vh 10vw;
   font-size: 30px;
 }
 
-.Header p {
+.Tittle p {
 
   font-size: large;
 
@@ -159,6 +159,7 @@ body {
 
 
 /* === PARTE OCULTA === */
+
 .tarjeta-oculta {
   display: grid;
   position: absolute;
@@ -170,9 +171,7 @@ body {
   background: #fff;
   box-shadow: inset 1px 1px 15px 0 rgba(0, 0, 0, 0.4);
   overflow-y: auto;
-  /* Scroll si el contenido es muy largo */
   z-index: 1;
-  /* Está debajo de .tarjeta-visible */
 }
 
 /* === LA ANIMACIÓN HOVER === */
@@ -276,6 +275,7 @@ body {
 }
 
 /* Clases de Delay (retraso) */
+
 .delay-1 {
   animation-delay: 0.3s;
 }
@@ -297,17 +297,39 @@ body {
 }
 
 
-/* Para pantallas de Laptops a 2 COLUMNAS.*/
-@media (max-width: 991px) {
+/* Para pantallas de Laptops*/
+@media (max-width: 1920px) {
   .contenedor-productos {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .tarjeta-producto {
+    width: 100%;
+    max-width: 240px;
+    height: 320px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 2rem 0;
   }
 }
 
-/* Para pantallas de Celulares Con 1 Columna*/
+/* Para pantallas de Celulares*/
 @media (max-width: 767px) {
   .contenedor-productos {
     grid-template-columns: 1fr;
+  }
+
+  .tarjeta-producto {
+    position: relative;
+    overflow: hidden;
+    transition: 0.3s ease-in-out;
+    border: 1px solid #070707;
+    border-radius: 12px;
+    background: #fff;
+    width: 100%;
+    max-width: 220px;
+    height: 310px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin: 1rem 0;
   }
 }
 
@@ -342,6 +364,21 @@ body {
   font-size: 20px;
 }
 
+/*Formulario*/
+
+.Cotizacion {
+  margin: 2vh auto;
+  display: block;
+  text-align: center;
+  width: 30%;
+  min-width: 250px;
+  height: 5vh;
+  font-size: 1.5vw;
+  background-color: #4CAF50;
+  color: white;
+  border-radius: 5px;
+}
+
 .Form {
   display: none;
   flex-wrap: wrap;
@@ -356,10 +393,8 @@ body {
   display: flex;
   flex-direction: column;
   width: 48%;
-  /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
 }
 
-/* Mantén las demás reglas del formulario */
 .Form label {
   font-weight: bold;
   font-size: 14px;
@@ -379,7 +414,6 @@ body {
   min-height: 80px;
   resize: vertical;
   width: 100%;
-  /* El campo de texto ocupa todo el ancho */
 }
 
 .Form button {
@@ -393,7 +427,6 @@ body {
   cursor: pointer;
   transition: all 0.3s ease;
   width: 100%;
-  /* El botón ocupa todo el ancho */
 }
 
 .Form button:hover {
@@ -416,17 +449,4 @@ body {
 .btn-enviar:hover {
   background: #28a745;
   color: white;
-}
-
-.Cotizacion {
-  margin: 2vh auto;
-  display: block;
-  text-align: center;
-  width: 30%;
-  min-width: 250px;
-  height: 5vh;
-  font-size: 1.5vw;
-  background-color: #4CAF50;
-  color: white;
-  border-radius: 5px;
 }
