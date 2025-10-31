@@ -297,45 +297,6 @@ body {
 }
 
 
-/* Para pantallas de Laptops*/
-@media (max-width: 1920px) {
-  .contenedor-productos {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .tarjeta-producto {
-    width: 100%;
-    max-width: 240px;
-    height: 320px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 2rem 0;
-  }
-}
-
-/* Para pantallas de Celulares*/
-@media (max-width: 767px) {
-  .contenedor-productos {
-    grid-template-columns: 1fr;
-  }
-
-  .tarjeta-producto {
-    position: relative;
-    overflow: hidden;
-    transition: 0.3s ease-in-out;
-    border: 1px solid #070707;
-    border-radius: 12px;
-    background: #fff;
-    width: 100%;
-    max-width: 220px;
-    height: 310px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-    margin: 1rem 0;
-  }
-}
-
-
-
-
 /* Footer*/
 
 .Contacto {
@@ -362,6 +323,11 @@ body {
 .footer-info p {
   margin: 5px 0;
   font-size: 20px;
+}
+
+.footer-right {
+  flex: 1;
+  max-width: 800px;
 }
 
 /*Formulario*/

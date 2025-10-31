@@ -90,15 +90,16 @@ body {
     object-position: 50% 80%;
     display: block;
     margin: 0 auto;
-    animation: fading 3s; 
+    animation: fading 3s;
     animation-fill-mode: forwards;
     opacity: 0;
 }
 
 @keyframes fading {
-   from {
+    from {
         opacity: 0;
     }
+
     to {
         opacity: 1;
     }
@@ -192,8 +193,8 @@ body {
 }
 
 .footer-right {
-    flex: 1;  
-    max-width: 800px; 
+    flex: 1;
+    max-width: 800px;
 }
 
 .footer-logo {
@@ -292,84 +293,4 @@ body {
 .btn-enviar:hover {
     background: #28a745;
     color: white;
-}
-
-
-/* Para pantallas de Laptops*/
-
-@media (max-width: 1920px) {
-
-.RGHeader img {
-    height: 60px;
-    width: auto;
-}
-
-.Titulo h1 {
-    font-size: 28px;
-}
-
-.Titulo .subtitle {
-    font-size: 13px;
-}
-
-.Links {
-    padding: 15px;
-    gap: 30px;
-    padding-right: 5%;
-}
-
-.Botones:link {
-    font-size: 18px;
-}
-
-.Botones:visited {
-    font-size: 18px;
-}
-
-.Botones:hover {
-    font-size: 22px;
-}
-
-.Botones:active {
-    font-size: 22px;
-}
-
-.Welcome img {
-    width: 75%;
-    height: 350px;
-    object-position: 50% 83%;
-}
-
-.Welcome .subtexto {
-    margin-top: 1rem;
-    font-size: 2.5rem;
-}
-
-.Info h2 {
-    font-size: 30px;
-}
-
-.Info p {
-    text-align: justify;
-    font-size: 1.2rem;
-    line-height: 1.6;
-}
-
-.BProducto {
-    width: 25vh;
-    font-size: 1.3rem;
-}
-
-.footer-logo {
-    width: 100px;
-    height: auto;
-    margin-bottom: 10px;
-}
-
-.footer-info p {
-    margin: 5px 0;
-    font-size: 18px;
-}
-
-
 }

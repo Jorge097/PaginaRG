@@ -9,72 +9,90 @@ body {
 /* Header */
 
 .RGHeader {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
-  padding: 12px 40px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgb(206, 254, 210), rgb(119, 255, 155));
+    padding: 12px 40px;
 }
 
 .RGHeader img {
-  height: 90px;
-  width: auto;
+    height: 90px;
+    width: auto;
 }
 
 .Titulo {
-  flex: 1;
-  text-align: center;
+    flex: 1;
+    text-align: center;
 }
 
 .Titulo h1 {
-  margin: 0;
-  font-size: 40px;
-  line-height: 1.1;
+    margin: 0;
+    font-size: 40px;
+    line-height: 1.1;
 }
 
 .Titulo .subtitle {
-  margin: 0;
-  font-size: 15px;
-  letter-spacing: 2px;
-  color: #6a7a94;
+    margin: 0;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #6a7a94;
 }
 
 
 /* Botones De Navegacions*/
 .Links {
-  padding: 10px;
-  margin: auto;
-  display: flex;
-  gap: 40px;
-  justify-content: flex-end;
-  padding-right: 12%;
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    gap: 40px;
+    justify-content: flex-end;
+    padding-right: 12%;
 }
 
 .Botones:link {
-  color: #58ca5c;
-  text-decoration: none;
-  font-size: 20px;
+    color: #58ca5c;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .Botones:visited {
-  color: #58ca5c;
-  text-decoration: none;
-  font-size: 20px;
+    color: #58ca5c;
+    text-decoration: none;
+    font-size: 20px;
 }
 
 .Botones:hover {
-  color: #359439;
-  text-decoration: none;
-  font-size: 25px;
+    color: #359439;
+    text-decoration: none;
+    font-size: 25px;
 }
 
 .Botones:active {
-  color: #359439;
-  text-decoration: none;
-  font-size: 25px;
+    color: #359439;
+    text-decoration: none;
+    font-size: 25px;
 }
 
+/*
+.LinkBar{
+    border: none;
+    height: 1px;
+    background-color: #359439;
+    width: 95%;
+    margin: auto;
+
+}*/
+
 /*Informacion*/
+
+.Hacemos hr {
+    border: none;
+    height: 2px;
+    background-color: #000;
+    width: 80%;
+    margin: 20px auto;
+}
 
 .Hacemos {
     text-align: center;
@@ -112,7 +130,7 @@ body {
 
 #Foliares {
 
-    object-position: 50%  75%;
+    object-position: 50% 75%;
 
 }
 
@@ -244,6 +262,11 @@ body {
 .btn-enviar:hover {
     background: #28a745;
     color: white;
+}
+
+.footer-right {
+    flex: 1;
+    max-width: 800px;
 }
 
 .Cotizacion {

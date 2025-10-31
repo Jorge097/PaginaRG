@@ -11,15 +11,15 @@ return new class extends Migration
      */
     public function up(): void
 {
-    Schema::create('cotizaciones', function (Blueprint $table) {
+    Schema::create(table: 'Cotizaciones', callback: function (Blueprint $table) {
         $table->id();
-        $table->string('Name');
-        $table->string('Phone', 15);
-        $table->string('Email');
-        $table->string('Location');
-        $table->string('Crop');
-        $table->string('Surface');
-        $table->text('Comment')->nullable();
+        $table->string(column: 'Name');
+        $table->string(column: 'Phone', length: 15);
+        $table->string(column: 'Email');
+        $table->string(column: 'Location');
+        $table->string(column: 'Crop');
+        $table->string(column: 'Surface');
+        $table->text(column: 'Comment')->nullable();
         $table->timestamps();
     });
 }
@@ -30,6 +30,6 @@ return new class extends Migration
      */
     public function down(): void
     {
-        Schema::dropIfExists('cotizaciones');
+        Schema::dropIfExists(table: 'cotizaciones');
     }
 };

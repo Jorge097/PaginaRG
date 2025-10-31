@@ -4,6 +4,7 @@
 <head>
     <title>RG Fertilizantes Foliares</title>
     <link rel="stylesheet" href="/css/Diseno.css">
+    <link rel="stylesheet" href="/css/Diseno.Laptop.css">
 </head>
 
 <body class="body">

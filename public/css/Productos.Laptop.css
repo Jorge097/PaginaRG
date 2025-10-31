@@ -1,0 +1,69 @@
+/* Para pantallas de Laptops*/
+@media (max-width: 1920px) {
+
+    /* Header */
+    .RGHeader img {
+        height: 60px;
+        width: auto;
+    }
+
+    .Titulo h1 {
+        font-size: 28px;
+    }
+
+    .Titulo .subtitle {
+        font-size: 13px;
+    }
+
+    .Links {
+        padding: 15px;
+        gap: 30px;
+        padding-right: 5%;
+    }
+
+    .Botones:link {
+        font-size: 18px;
+    }
+
+    .Botones:visited {
+        font-size: 18px;
+    }
+
+    .Botones:hover {
+        font-size: 22px;
+    }
+
+    .Botones:active {
+        font-size: 22px;
+    }
+
+    /* Informacion*/
+
+    .contenedor-productos {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .tarjeta-producto {
+        width: 100%;
+        max-width: 240px;
+        height: 300px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        margin: 2rem 0;
+    }
+
+    /* Footer */
+
+.footer-logo {
+    width: 100px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 18px;
+}
+
+
+
+}

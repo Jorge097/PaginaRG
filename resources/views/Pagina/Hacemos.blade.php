@@ -4,6 +4,7 @@
 <head>
     <title>Document</title>
     <link rel="stylesheet" href="/css/Diseno.Hacemos.css">
+    <link rel="stylesheet" href="/css/Hacemos.Laptop.css">
 </head>
 
 <body>
@@ -23,11 +24,11 @@
         <a class="Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
         <a class="Botones" href="#ContactoFooter">Contactanos</a>
     </nav>
+    <!-- <hr class="LinkBar"> -->
 
 
 
     <!-- Descripcion e informacion -->
-
     <div class="Hacemos">
         <div class="TituloInfo">
             <h2>Fertilizantes Para El Suelo</h2>
@@ -48,6 +49,8 @@
             </div>
         </div>
 
+        <hr>
+
         <div class="TituloInfo">
             <h2>Fertilizantes Foliares</h2>
             <div class="Informacion">
@@ -60,7 +63,7 @@
                     esenciales
                     para el desarrollo óptimo de cualquier cultivo, así mismo, contamos con nutrientes de manera
                     individual para correcciones muy específicas , tales como <b> Zinc, Fierro, Magnesio, Cobre,
-                    Manganeso,Potasio, Niquel </b> entre otros, los cuales son elaborados con la materia prima de
+                        Manganeso,Potasio, Niquel </b> entre otros, los cuales son elaborados con la materia prima de
                     mayor
                     calidad y contienen agentes quelatantes para una mejor absorción y asimilación nutrimental en la
                     planta. <br>
@@ -70,6 +73,8 @@
                 </p>
             </div>
         </div>
+
+        <hr>
 
         <div class="TituloInfo">
             <h2>Asistencia Técnica</h2>
@@ -87,6 +92,8 @@
             </div>
         </div>
 
+        <hr>
+
         <div class="TituloInfo">
             <h2>Laboratorio de Suelo, Agua y Planta</h2>
             <div class="Informacion">
@@ -99,13 +106,17 @@
                     Realizamos un diagnóstico preciso y en base a los resultados le ofrecemos una propuesta de
                     fertilización a la medida de las necesidades de su cultivo, acorde a las características del suelo,
                     para obtener los mejores resultados de cosecha.<br>
-                    En nuestro <b>Laboratorio Agropecuario </b> llevamos a cabo los análisis de acuerdo a las <b>NOM</b> vigentes para
+                    En nuestro <b>Laboratorio Agropecuario </b> llevamos a cabo los análisis de acuerdo a las <b>NOM</b>
+                    vigentes para
                     cada tipo de análisis.<br>
                     De igual manera nuestro personal cuenta con 30 años de experiencia en manejo y análisis de muestras,
                     lo que permite una mayor confianza para el productor.
                 </p>
             </div>
         </div>
+
+        <hr>
+
     </div>
 
 
@@ -113,6 +124,7 @@
 
     <footer class="Contacto" id="ContactoFooter">
         <div class="footer-container">
+
             <div class="footer-left">
                 <img src="Img/Logo2.png" alt="Logo RGFoliares" class="footer-logo">
                 <div class="footer-info">
@@ -120,8 +132,7 @@
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
                     <p><b>Tel:</b> +52 (871) 329 7483</p>
                     <p><b>Email: </b><a
-                            href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a>
-                    </p>
+                            href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a></p>
                     <p><b>¿Donde nos encontramos?</b></p>
                     <p>Calle Cto. Torreón 246, Aviación San Ignacio,
                         <br> 27016 Torreón, Coah.
@@ -134,54 +145,54 @@
                 </div>
             </div>
 
-            <!--Formulario para enviar la info-->
+            <div class="footer-right">
 
-            <button id="mostrarFormulario" class="Cotizacion">Solicitar Cotización</button>
+                <button id="mostrarFormulario" class="Cotizacion">Solicitar Cotización</button>
 
-            <form action="{{ route('cotizaciones.store') }}" id="formulario" class="Form" method="POST">
-                @csrf
+                <form action="{{ route('cotizaciones.store') }}" id="formulario" class="Form" method="POST">
+                    @csrf
 
-                <div class="campo-doble">
-                    <label for="nombre">Nombre del Productor:</label>
-                    <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="nombre">Nombre del Productor:</label>
+                        <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="telefono">Correo:</label>
-                    <input type="email" id="Email" name="Email" placeholder="Correo" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="telefono">Correo:</label>
+                        <input type="email" id="Email" name="Email" placeholder="Correo" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="ubicacion">Ubicación:</label>
-                    <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="ubicacion">Ubicación:</label>
+                        <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="Cultivo">Cultivo:</label>
-                    <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="Cultivo">Cultivo:</label>
+                        <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="surface">Superficie:</label>
-                    <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="surface">Superficie:</label>
+                        <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
+                    </div>
 
-                <label for="comentarios">Producto a Cotizar:</label>
-                <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
+                    <label for="comentarios">Producto a Cotizar:</label>
+                    <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
 
-                <button type="submit">Enviar</button>
-                {{ csrf_field() }}
-            </form>
+                    <button type="submit">Enviar</button>
+                    {{ csrf_field() }}
+                </form>
 
-            <script src="/js/Formulario.js"></script>
-
+            </div>
         </div>
 
+        <script src="/js/Formulario.js"></script>
     </footer>
 </body>
 

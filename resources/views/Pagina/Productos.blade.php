@@ -4,6 +4,7 @@
 <head>
     <title>RG Fertilizantes Foliares</title>
     <link rel="stylesheet" href="/css/Diseno.Productos.css">
+    <link rel="stylesheet" href="/css/Productos.Laptop.css">
 </head>
 
 <body class="body">
@@ -370,6 +371,7 @@
 
     <footer class="Contacto" id="ContactoFooter">
         <div class="footer-container">
+
             <div class="footer-left">
                 <img src="Img/Logo2.png" alt="Logo RGFoliares" class="footer-logo">
                 <div class="footer-info">
@@ -377,8 +379,7 @@
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
                     <p><b>Tel:</b> +52 (871) 329 7483</p>
                     <p><b>Email: </b><a
-                            href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a>
-                    </p>
+                            href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a></p>
                     <p><b>¿Donde nos encontramos?</b></p>
                     <p>Calle Cto. Torreón 246, Aviación San Ignacio,
                         <br> 27016 Torreón, Coah.
@@ -391,53 +392,54 @@
                 </div>
             </div>
 
-            <!--Formulario para enviar la info-->
+            <div class="footer-right">
 
-            <button id="mostrarFormulario" class="Cotizacion">Solicitar Cotización</button>
+                <button id="mostrarFormulario" class="Cotizacion">Solicitar Cotización</button>
 
-            <form action="{{ route('cotizaciones.store') }}" id="formulario" class="Form" method="POST">
-                @csrf
+                <form action="{{ route('cotizaciones.store') }}" id="formulario" class="Form" method="POST">
+                    @csrf
 
-                <div class="campo-doble">
-                    <label for="nombre">Nombre del Productor:</label>
-                    <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="nombre">Nombre del Productor:</label>
+                        <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="telefono">Teléfono:</label>
-                    <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="telefono">Teléfono:</label>
+                        <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="telefono">Correo:</label>
-                    <input type="email" id="Email" name="Email" placeholder="Correo" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="telefono">Correo:</label>
+                        <input type="email" id="Email" name="Email" placeholder="Correo" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="ubicacion">Ubicación:</label>
-                    <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="ubicacion">Ubicación:</label>
+                        <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="Cultivo">Cultivo:</label>
-                    <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="Cultivo">Cultivo:</label>
+                        <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
+                    </div>
 
-                <div class="campo-doble">
-                    <label for="surface">Superficie:</label>
-                    <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
-                </div>
+                    <div class="campo-doble">
+                        <label for="surface">Superficie:</label>
+                        <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
+                    </div>
 
-                <label for="comentarios">Producto a Cotizar:</label>
-                <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
+                    <label for="comentarios">Producto a Cotizar:</label>
+                    <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
 
-                <button type="submit">Enviar</button>
-                {{ csrf_field() }}
-            </form>
+                    <button type="submit">Enviar</button>
+                    {{ csrf_field() }}
+                </form>
 
-            <script src="/js/Formulario.js"></script>
+            </div>
         </div>
 
+        <script src="/js/Formulario.js"></script>
     </footer>
 
 
