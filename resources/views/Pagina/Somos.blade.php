@@ -35,7 +35,7 @@
                 <p>En <b>RG FOLIARES</b> somos una empresa especialista en Nutrición Agrícola. El gran valor
                     que nuestra empresa aporta al sector radica en conjugar el conocimiento químico con
                     la experiencia de nuestro personal en el área Agropecuaria.
-                    Nuestro equipo técnico está compuesto por personal con más de 20 años de
+                    Nuestro equipo técnico está compuesto por personal con 30 años de
                     experiencia en el manejo de Suelos, Agua y Planta, para brindar al productor un
                     servicio de calidad y confianza en nuestros productos.
                     Somos expertos en el manejo del sistema <b> AGUA - SUELO - PLANTA.</b>

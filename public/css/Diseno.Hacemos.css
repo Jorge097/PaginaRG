@@ -128,9 +128,15 @@ body {
 }
 
 
+#Fertilizantes_Suelo {
+
+    object-position: 70% 50%;
+
+}
+
 #Foliares {
 
-    object-position: 50% 75%;
+    object-position: 50% 30%;
 
 }
 
@@ -270,10 +276,10 @@ body {
 }
 
 .Cotizacion {
-    margin: 2vh auto;
+    margin: 2vh 50vh;
     display: block;
     text-align: center;
-    width: 30%;
+    width: 50%;
     min-width: 250px;
     height: 5vh;
     font-size: 1.5vw;

@@ -33,7 +33,7 @@
         <div class="TituloInfo">
             <h2>Fertilizantes Para El Suelo</h2>
             <div class="Informacion">
-                <img src="/Img/Dron.jpg" alt="Dron" id="Dron">
+                <img src="/Img/FertilizantesSuelo.jpg" alt="Fertilizante" id="Fertilizantes_Suelo">
                 <p>
                     Un suelo fértil y bien nutrido es la base para obtener los mejores rendimientos de su cultivo. <br>
                     Nuestros fertilizantes líquidos : <b> 8 - 24 - 2 y N 20 </b>, son ideales para la aportación de
@@ -54,7 +54,7 @@
         <div class="TituloInfo">
             <h2>Fertilizantes Foliares</h2>
             <div class="Informacion">
-                <img src="/Img/FertilizantesFoliares.jpg" alt="Fertilizantes Foliares" id="Foliares">
+                <img src="/Img/Dron.jpg" alt="Fertilizantes Foliares" id="Foliares">
                 <p>
                     Cuando necesitamos corregir deficiencias detectadas mediante un análisis de tejido vegetal o
                     visualmente, la mejor opción es utilizar fertilizantes foliares, en <b> RG Fertilizantes Foliares
