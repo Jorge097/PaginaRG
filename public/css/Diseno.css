@@ -185,7 +185,6 @@ body {
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -214,10 +213,10 @@ body {
     margin: 2vh auto;
     display: block;
     text-align: center;
-    width: 30%;
+    width: 40%;
     min-width: 250px;
     height: 5vh;
-    font-size: 1.5vw;
+    font-size: 1.2vw;
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;
