@@ -26,7 +26,7 @@ class CotizacionController extends Controller
         // Enviar correo
         $mailService = new OutlookMailService();
 
-        $to = 'jjorgesilvaj@RgFoliares.com';
+        $to = 'jORGE.SILVA@RgFoliares.com';
         $subject = 'Nueva Cotización Recibida';
         $body = "
             <h2>¡Nueva cotización recibida!</h2>
