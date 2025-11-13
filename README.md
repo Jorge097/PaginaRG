@@ -28,7 +28,7 @@
    
 Ingresa al directorio del proyecto:
 
-"cd rg-foliares"
+cd rg-foliares
 
 
 Instala las dependencias de PHP:
