@@ -160,11 +160,11 @@ body {
 /* Colores de bordes para cada H2 */
 
 .Mision h2 {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid green;
 }
 
 .Vision h2 {
-    border-bottom: 3px solid red;
+    border-bottom: 3px solid green;
 }
 
 
