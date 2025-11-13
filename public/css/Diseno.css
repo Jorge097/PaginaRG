@@ -196,6 +196,11 @@ body {
     max-width: 800px;
 }
 
+.footer-left {
+    flex: 1;
+    max-width: 800px;
+}
+
 .footer-logo {
     width: 150px;
     height: auto;
@@ -213,10 +218,10 @@ body {
     margin: 2vh auto;
     display: block;
     text-align: center;
-    width: 40%;
+    width: 50%;
     min-width: 250px;
     height: 5vh;
-    font-size: 1.2vw;
+    font-size: 1.1vw;
     background-color: #4CAF50;
     color: white;
     border-radius: 5px;

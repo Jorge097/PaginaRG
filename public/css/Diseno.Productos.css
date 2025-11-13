@@ -300,119 +300,123 @@ body {
 /* Footer*/
 
 .Contacto {
-  background-color: chartreuse;
-  padding: 80px 20px;
+    background-color: chartreuse;
+    padding: 80px 20px;
 }
 
 .footer-container {
-  max-width: 1200px;
-  margin: 0 auto;
-  margin-left: 10%;
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-start;
-  gap: 40px;
-}
-
-.footer-logo {
-  width: 150px;
-  height: auto;
-  margin-bottom: 20px;
-}
-
-.footer-info p {
-  margin: 5px 0;
-  font-size: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 40px;
 }
 
 .footer-right {
-  flex: 1;
-  max-width: 800px;
+    flex: 1;
+    max-width: 800px;
+}
+
+.footer-left {
+    flex: 1;
+    max-width: 800px;
+}
+
+.footer-logo {
+    width: 150px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.footer-info p {
+    margin: 5px 0;
+    font-size: 20px;
 }
 
 /*Formulario*/
 
 .Cotizacion {
-  margin: 2vh auto;
-  display: block;
-  text-align: center;
-  width: 30%;
-  min-width: 250px;
-  height: 5vh;
-  font-size: 1.5vw;
-  background-color: #4CAF50;
-  color: white;
-  border-radius: 5px;
+    margin: 2vh auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+    min-width: 250px;
+    height: 5vh;
+    font-size: 1.1vw;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
 }
 
 .Form {
-  display: none;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  gap: 16px;
-  width: 100%;
-  max-width: 800px;
-  margin: 0 auto;
+    display: none;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 16px;
+    width: 100%;
+    max-width: 800px;
+    margin: 0 auto;
 }
 
 .campo-doble {
-  display: flex;
-  flex-direction: column;
-  width: 48%;
+    display: flex;
+    flex-direction: column;
+    width: 48%;
 }
 
 .Form label {
-  font-weight: bold;
-  font-size: 14px;
-  margin-bottom: 4px;
-  color: #000;
+    font-weight: bold;
+    font-size: 14px;
+    margin-bottom: 4px;
+    color: #000;
 }
 
 .Form input,
 .Form textarea {
-  padding: 10px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  font-size: 14px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
 }
 
 .Form textarea {
-  min-height: 80px;
-  resize: vertical;
-  width: 100%;
+    min-height: 80px;
+    resize: vertical;
+    width: 100%;
 }
 
 .Form button {
-  margin-top: 10px;
-  padding: 12px;
-  background: white;
-  border: 2px solid #28a745;
-  color: #28a745;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  width: 100%;
+    margin-top: 10px;
+    padding: 12px;
+    background: white;
+    border: 2px solid #28a745;
+    color: #28a745;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
 }
 
 .Form button:hover {
-  background: #28a745;
-  color: white;
+    background: #28a745;
+    color: white;
 }
 
 .btn-enviar {
-  margin-top: 10px;
-  padding: 12px;
-  background: white;
-  border: 2px solid #28a745;
-  color: #28a745;
-  border-radius: 5px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: all 0.3s ease;
+    margin-top: 10px;
+    padding: 12px;
+    background: white;
+    border: 2px solid #28a745;
+    color: #28a745;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
 }
 
 .btn-enviar:hover {
-  background: #28a745;
-  color: white;
+    background: #28a745;
+    color: white;
 }

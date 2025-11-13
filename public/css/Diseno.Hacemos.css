@@ -176,11 +176,20 @@ body {
 .footer-container {
     max-width: 1200px;
     margin: 0 auto;
-    margin-left: 10%;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
     gap: 40px;
+}
+
+.footer-right {
+    flex: 1;
+    max-width: 800px;
+}
+
+.footer-left {
+    flex: 1;
+    max-width: 800px;
 }
 
 .footer-logo {
@@ -192,6 +201,21 @@ body {
 .footer-info p {
     margin: 5px 0;
     font-size: 20px;
+}
+
+/*Formulario*/
+
+.Cotizacion {
+    margin: 2vh auto;
+    display: block;
+    text-align: center;
+    width: 50%;
+    min-width: 250px;
+    height: 5vh;
+    font-size: 1.1vw;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
 }
 
 .Form {
@@ -208,10 +232,8 @@ body {
     display: flex;
     flex-direction: column;
     width: 48%;
-    /* Establece el ancho de cada columna. 48% permite un pequeño espacio entre ellas */
 }
 
-/* Mantén las demás reglas del formulario */
 .Form label {
     font-weight: bold;
     font-size: 14px;
@@ -231,7 +253,6 @@ body {
     min-height: 80px;
     resize: vertical;
     width: 100%;
-    /* El campo de texto ocupa todo el ancho */
 }
 
 .Form button {
@@ -245,7 +266,6 @@ body {
     cursor: pointer;
     transition: all 0.3s ease;
     width: 100%;
-    /* El botón ocupa todo el ancho */
 }
 
 .Form button:hover {
@@ -268,22 +288,4 @@ body {
 .btn-enviar:hover {
     background: #28a745;
     color: white;
-}
-
-.footer-right {
-    flex: 1;
-    max-width: 800px;
-}
-
-.Cotizacion {
-    margin: 2vh 50vh;
-    display: block;
-    text-align: center;
-    width: 50%;
-    min-width: 250px;
-    height: 5vh;
-    font-size: 1.5vw;
-    background-color: #4CAF50;
-    color: white;
-    border-radius: 5px;
 }
