@@ -6,9 +6,9 @@
 
 ## Características
 - Gestión completa de registros (CRUD)
-- Manejo de usuarios y roles
+- Manejo de usuarios
 - Envío de correos electrónicos vía SMTP
-- Organización y visualización de datos de manera clara
+- Organización y visualización de información de manera clara
 
 ---
 
