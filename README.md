@@ -15,6 +15,7 @@
 ## Requisitos
 - PHP >= 8.2
 - Composer
+- Artisan
 - XAMPP o servidor local compatible
 - MySQL
 
