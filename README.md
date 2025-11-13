@@ -25,36 +25,31 @@
 1. Clona el repositorio:
    ```bash
    git clone https://github.com/tu-usuario/rg-foliares.git
+      
+2. Ingresa al directorio del proyecto:
+   ```bash
+    cd rg-foliares
+
+3. Instala las dependencias de PHP:
+   ```bash
+   composer install
    
-Ingresa al directorio del proyecto:
+4. Copia el archivo .env.example y renómbralo a .env:
+   ```bash
+   cp .env.example .env"
 
-"cd rg-foliares"
+5. Genera la clave de aplicación:
+   ```bash
+   php artisan key:generate
+   
+6. Ejecuta migraciones por si se aplicara:
+   ```bash
+   php artisan migrate
 
-
-Instala las dependencias de PHP:
-
-"composer install"
-
-
-Copia el archivo .env.example y renómbralo a .env:
-
-"cp .env.example .env"
-
-
-Genera la clave de aplicación:
-
-"php artisan key:generate"
-
-
-Ejecuta migraciones por si se aplicara:
-
-"php artisan migrate"
-
-
-(Opcional) Instala dependencias de Node y compila assets:
-
-"npm install"
-"npm run dev"
+7. (Opcional) Instala dependencias de Node y compila assets:
+   ```bash
+   npm install
+   npm run dev
 
 
 © 2025 Jorge Silva. Todos los derechos reservados.
