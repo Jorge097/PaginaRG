@@ -24,7 +24,7 @@
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/tu-usuario/rg-foliares.git
+   git clone https://github.com/Jorge097/rg-foliares.git
       
 2. Ingresa al directorio del proyecto:
    ```bash
