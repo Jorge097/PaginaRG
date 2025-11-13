@@ -1,6 +1,6 @@
 # Pagina RG Foliares
 
-**RG Foliares** es una aplicación web desarrollada en **Laravel 12** con **XAMPP**, diseñada para la gestión de datos operativos y administrativos, incluyendo CRUD, manejo de usuarios y envío de correos electrónicos. Su enfoque está en la eficiencia operativa y el control preciso de la información.
+**RG Foliares** es una aplicación web desarrollada en **Laravel 12** con **XAMPP**, diseñada para la gestión de datos operativos y administrativos, incluyendo CRUD, manejo de usuarios y envío de correos electrónicos. Su enfoque está en la eficiencia operativa y el uso de la información de la pagina y los datos de los usuarios.
 
 ---
 
@@ -16,19 +16,18 @@
 - PHP >= 8.2
 - Composer
 - XAMPP o servidor local compatible
-- MySQL o MariaDB
-- Node.js y NPM (para assets y compilación con Laravel Mix)
+- MySQL
 
 ---
 
 ## Instalación
 1. Clona el repositorio:
    ```bash
-   git clone https://github.com/Jorge097/rg-foliares.git
+   git clone https://github.com/Jorge097/PaginaRG.git
       
 2. Ingresa al directorio del proyecto:
    ```bash
-    cd rg-foliares
+    cd PaginaRG
 
 3. Instala las dependencias de PHP:
    ```bash
