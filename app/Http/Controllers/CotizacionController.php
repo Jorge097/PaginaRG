@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Cotizacion;
-use App\Services\OutlookMailService;
+use Illuminate\Support\Facades\Mail;
 
 class CotizacionController extends Controller
 {
@@ -20,26 +20,23 @@ class CotizacionController extends Controller
             'Comment' => 'nullable|string',
         ]);
 
-        // Guardar y capturar el modelo creado
         $cotizacion = Cotizacion::create($validated);
 
-        // Enviar correo
-        $mailService = new OutlookMailService();
-
-        $to = 'jORGE.SILVA@RgFoliares.com';
-        $subject = 'Nueva Cotización Recibida';
-        $body = "
-            <h2>¡Nueva cotización recibida!</h2>
-            <p><strong>Nombre:</strong> {$cotizacion->Name}</p>
-            <p><strong>Teléfono:</strong> {$cotizacion->Phone}</p>
-            <p><strong>Correo:</strong> {$cotizacion->Email}</p>
-            <p><strong>Ubicación:</strong> {$cotizacion->Location}</p>
-            <p><strong>Cultivo:</strong> {$cotizacion->Crop}</p>
-            <p><strong>Superficie:</strong> {$cotizacion->Surface}</p>
-            <p><strong>Comentarios:</strong> {$cotizacion->Comment}</p>
-        ";
-
-        $mailService->sendMail($to, $subject, $body);
+        // Enviar correo usando SMTP de Laravel
+        Mail::send([], [], function ($message) use ($cotizacion) {
+            $message->to('jorge.silva@rgfoliares.com')
+                ->subject('Nueva Cotización Recibida')
+                ->setBody("
+                    <h2>¡Nueva cotización recibida!</h2>
+                    <p><strong>Nombre:</strong> {$cotizacion->Name}</p>
+                    <p><strong>Teléfono:</strong> {$cotizacion->Phone}</p>
+                    <p><strong>Correo:</strong> {$cotizacion->Email}</p>
+                    <p><strong>Ubicación:</strong> {$cotizacion->Location}</p>
+                    <p><strong>Cultivo:</strong> {$cotizacion->Crop}</p>
+                    <p><strong>Superficie:</strong> {$cotizacion->Surface}</p>
+                    <p><strong>Comentarios:</strong> {$cotizacion->Comment}</p>
+                ", 'text/html');
+        });
 
         return redirect()->back()->with('success', '¡Cotización enviada con éxito!');
     }
