@@ -1,0 +1,149 @@
+/* Para pantallas de Celulares*/
+
+@media (max-width: 768px) {
+
+
+/* Header */
+.RGHeader img {
+    height: 40px;
+    width: auto;
+}
+
+.Titulo h1 {
+    font-size: 17px;
+}
+
+.Titulo .subtitle {
+    font-size: 7px;
+}
+
+.Links {
+    padding: 10px;
+    gap: 12px;
+    padding-right: 2%;
+}
+
+.Botones:link {
+    font-size:12px;
+}
+
+/* Informacion */
+    
+.QuienesSomos {
+
+    max-width: 400px;
+    margin: 0 auto;
+
+    }
+
+    .Bloque p {
+        height: 80%;
+
+    }
+
+    .QuienesSomos h2 {
+
+        font-size: 1.5em;
+
+    }
+
+    .QuienesSomos p {
+        font-size: 1em;
+
+    }
+
+    .Valores-Container {
+        width: 100%;
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    .Header-Container {
+        gap: 20px;
+        margin-bottom: 10px;
+        max-width: 350px;
+
+    }
+
+    .Bloque p {
+        line-height: 1.3;
+        font-size: 1em;
+
+    }
+
+    .Valores-Container h2 {
+        font-size: 2em;
+
+    }
+
+    .Valores-Container ul {
+        width: 90%; 
+        margin: 10 auto; 
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 20px;
+    }
+
+    
+    .Valores-Container ul li {
+        font-size: 1em;
+        text-align: justify;
+        padding-left:20px;
+    }
+
+    
+/* Footer */
+
+.footer-logo {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 2px 0;
+    font-size: 12px;
+}
+.footer-container {
+    margin-left: 1%;
+}
+
+iframe {
+    width: 90%;      
+    max-width: 200px;  
+    height: 150px;     
+}
+
+.Cotizacion {
+    width: 50%;
+    min-width: 200px;
+    height: 3.8vh;
+    font-size: 3.5vw;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.Form {
+    flex-direction: column;
+    gap: 10px
+}
+
+.campo-doble {
+    width: 80%;
+}
+    
+.Form textarea {
+    min-height: 50px;
+    resize: vertical;
+    width: 70%;
+}
+
+
+.Form button {
+    width: 80%;     
+    display: block;
+    margin: 10px auto; 
+}
+
+}

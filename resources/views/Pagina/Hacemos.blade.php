@@ -2,19 +2,24 @@
 <html lang="en">
 
 <head>
-    <title>Document</title>
-    <link rel="stylesheet" href="/css/Diseno.Hacemos.css">
-    <link rel="stylesheet" href="/css/Hacemos.Laptop.css">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RG Fertilizantes Foliares</title>
+    <link rel="icon" href="{{ asset('Img/Logo2.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ asset('css/Diseno.Hacemos.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Hacemos.Laptop.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Hacemos.Celular.css') }}">
+
 </head>
 
 <body>
     <header class="RGHeader">
-        <img src="/Img/Logo2.png" alt="Logo" />
+        <img src="{{ asset('Img/Logo2.png') }}" alt="Logo" />
         <div class="Titulo">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
-        <img src="Img/Aniversario.png" alt="Aniversario">
+        <img src="{{ asset('Img/Aniversario.png') }}" alt="Aniversario">
     </header>
 
     <nav class="Links">
@@ -24,16 +29,12 @@
         <a class="Botones" href="{{ route('Somos')}}">¿Quiénes Somos?</a>
         <a class="Botones" href="#ContactoFooter">Contactanos</a>
     </nav>
-    <!-- <hr class="LinkBar"> -->
 
-
-
-    <!-- Descripcion e informacion -->
     <div class="Hacemos">
         <div class="TituloInfo">
             <h2>Fertilizantes Para El Suelo</h2>
             <div class="Informacion">
-                <img src="/Img/FertilizantesSuelo.jpg" alt="Fertilizante" id="Fertilizantes_Suelo">
+                <img src="{{ asset('Img/FertilizantesSuelo.jpg') }}" alt="Fertilizante" id="Fertilizantes_Suelo">
                 <p>
                     Un suelo fértil y bien nutrido es la base para obtener los mejores rendimientos de su cultivo. <br>
                     Nuestros fertilizantes líquidos : <b> 8 - 24 - 2 y N 20 </b>, son ideales para la aportación de
@@ -54,7 +55,7 @@
         <div class="TituloInfo">
             <h2>Fertilizantes Foliares</h2>
             <div class="Informacion">
-                <img src="/Img/Dron.jpg" alt="Fertilizantes Foliares" id="Foliares">
+                <img src="{{ asset('Img/Dron.jpg') }}" alt="Fertilizantes Foliares" id="Foliares">
                 <p>
                     Cuando necesitamos corregir deficiencias detectadas mediante un análisis de tejido vegetal o
                     visualmente, la mejor opción es utilizar fertilizantes foliares, en <b> RG Fertilizantes Foliares
@@ -79,7 +80,7 @@
         <div class="TituloInfo">
             <h2>Asistencia Técnica</h2>
             <div class="Informacion">
-                <img src="/Img/AnalisisNueces.jpg" alt="Analisis" id="Nueces">
+                <img src="{{ asset('Img/AnalisisNueces.jpg') }}" alt="Analisis" id="Nueces">
                 <p>
                     Nuestro personal cuenta con 30 años de experiencia en el manejo del sistema <b> Agua - Suelo -
                         Planta </b>
@@ -97,7 +98,7 @@
         <div class="TituloInfo">
             <h2>Laboratorio de Suelo, Agua y Planta</h2>
             <div class="Informacion">
-                <img src="/Img/Laboratorio.jpg" alt="Laboratorio">
+                <img src="{{ asset('Img/Laboratorio.jpg') }}" alt="Laboratorio">
                 <p>
                     Nuestra empresa cuenta con una herramienta más al servicio del productor, le ofrecemos el servicio
                     de <b>Laboratorio Agropecuario.</b> <br>
@@ -116,17 +117,13 @@
         </div>
 
         <hr>
-
     </div>
-
-
-    <!-- Información del footer -->
 
     <footer class="Contacto" id="ContactoFooter">
         <div class="footer-container">
 
             <div class="footer-left">
-                <img src="Img/Logo2.png" alt="Logo RGFoliares" class="footer-logo">
+                <img src="{{ asset('Img/Logo2.png') }}" alt="Logo RGFoliares" class="footer-logo">
                 <div class="footer-info">
                     <p><b>Horario de Atención</b></p>
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
@@ -134,66 +131,83 @@
                     <p><b>Email: </b><a
                             href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a></p>
                     <p><b>¿Donde nos encontramos?</b></p>
-                    <p>Calle Cto. Torreón 246, Aviación San Ignacio,
-                        <br> 27016 Torreón, Coah.
-                    </p>
+                    <p>Calle Cto. Torreón 246, Aviación San Ignacio, <br> 27016 Torreón, Coah.</p>
                     <br>
+
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.998819915458!2d-103.39466900227987!3d25.564884067305208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdb006d7984ff%3A0xdb89219ff953b8c5!2sRG%20Fertilizantes%20Foliares!5e0!3m2!1ses-419!2smx!4v1761276558728!5m2!1ses-419!2smx"
                         width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
 
             <div class="footer-right">
-
                 <button id="mostrarFormulario" class="Cotizacion">Solicitar Cotización</button>
 
                 <form action="{{ route('cotizaciones.store') }}" id="formulario" class="Form" method="POST">
-                    @csrf
-
-                    <div class="campo-doble">
-                        <label for="nombre">Nombre del Productor:</label>
+                    @csrf <div class="campo-doble">
+                        <label for="Name">Nombre del Productor:</label>
                         <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="telefono">Teléfono:</label>
+                        <label for="Phone">Teléfono:</label>
                         <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="telefono">Correo:</label>
+                        <label for="Email">Correo:</label>
                         <input type="email" id="Email" name="Email" placeholder="Correo" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="ubicacion">Ubicación:</label>
+                        <label for="Location">Ubicación:</label>
                         <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="Cultivo">Cultivo:</label>
+                        <label for="Crop">Cultivo:</label>
                         <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="surface">Superficie:</label>
+                        <label for="Surface">Superficie:</label>
                         <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
                     </div>
 
-                    <label for="comentarios">Producto a Cotizar:</label>
+                    <label for="Comment">Producto a Cotizar:</label>
                     <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
 
                     <button type="submit">Enviar</button>
-                    {{ csrf_field() }}
                 </form>
-
             </div>
         </div>
-
-        <script src="/js/Formulario.js"></script>
     </footer>
+
+    <script src="{{ asset('js/Formulario.js') }}"></script>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
+
+            if (window.location.hash) {
+                setTimeout(function () {
+                    history.replaceState(null, null, window.location.pathname);
+                }, 10);
+            }
+        });
+    </script>
 </body>
 
 </html>

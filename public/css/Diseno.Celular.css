@@ -1,0 +1,112 @@
+/* Para pantallas de Celulares*/
+
+@media (max-width: 768px) {
+
+
+/* Header */
+.RGHeader img {
+    height: 40px;
+    width: auto;
+}
+
+.Titulo h1 {
+    font-size: 17px;
+}
+
+.Titulo .subtitle {
+    font-size: 7px;
+}
+
+.Links {
+    padding: 10px;
+    gap: 12px;
+    padding-right: 2%;
+}
+
+.Botones:link {
+    font-size:12px;
+}
+
+/* Informacion */
+
+.Welcome img {
+    width: 70%;
+    height: 180px;
+    object-position: 50% 100%;
+}
+
+.Welcome .subtexto {
+    margin-top: 1rem;
+    font-size: 1.8rem;
+}
+
+.Info h2 {
+    font-size: 20px;
+}
+
+.Info p {
+    text-align: justify;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.BProducto {
+    width: 15vh;
+    font-size: .8rem;
+}
+
+/* Footer */
+
+.footer-logo {
+    width: 70px;
+    height: auto;
+    margin-bottom: 10px;
+}
+
+.footer-info p {
+    margin: 2px 0;
+    font-size: 12px;
+}
+.footer-container {
+    margin-left: 1%;
+}
+
+iframe {
+    width: 90%;      
+    max-width: 200px;  
+    height: 150px;     
+}
+
+.Cotizacion {
+    width: 50%;
+    min-width: 200px;
+    height: 3.8vh;
+    font-size: 3.5vw;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 5px;
+}
+
+.Form {
+    flex-direction: column;
+    gap: 10px
+}
+
+.campo-doble {
+    width: 80%;
+}
+    
+.Form textarea {
+    min-height: 50px;
+    resize: vertical;
+    width: 70%;
+}
+
+
+.Form button {
+    width: 80%;     
+    display: block;
+    margin: 10px auto; 
+}
+
+}
