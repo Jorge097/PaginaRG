@@ -2,19 +2,23 @@
 <html lang="es">
 
 <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RG Fertilizantes Foliares</title>
-    <link rel="stylesheet" href="/css/Diseno.css">
-    <link rel="stylesheet" href="/css/Diseno.Laptop.css">
+    <link rel="icon" href="{{ asset('Img/Logo2.png') }}" type="image/png">
+    <link rel="stylesheet" href="{{ asset('css/Diseno.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Diseno.Laptop.css') }}">
+    <link rel="stylesheet" href="{{ asset('css/Diseno.Celular.css') }}">
 </head>
 
 <body class="body">
     <header class="RGHeader">
-        <img src="/Img/Logo2.png" alt="Logo" />
+        <img src="{{ asset('Img/Logo2.png') }}" alt="Logo" />
         <div class="Titulo">
             <h1>RG Fertilizantes Foliares</h1>
             <p class="subtitle">REAL GROWTH FERTILIZERS</p>
         </div>
-        <img src="Img/Aniversario.png" alt="Aniversario">
+        <img src="{{ asset('Img/Aniversario.png') }}" alt="Aniversario">
     </header>
 
     <nav class="Links">
@@ -27,12 +31,10 @@
 
 
     <div class="Welcome">
-        <img src="Img/AnalisisNueces.jpg" alt="Analisis De Nueces">
+        <img src="{{ asset('Img/AnalisisNueces.jpg') }}" alt="Analisis De Nueces">
         <p class="subtexto">16 Años Nutriendo Sus Cultivos</p>
     </div>
 
-
-    <!-- NUEVA INFORAMCION PARA LA PAGINA-- -->
 
     <div class="CompleteInfo">
         <div class="Info">
@@ -44,11 +46,8 @@
                 el medio ambiente y garantizar resultados visibles, con un enfoque especializado en nogales
                 y los cultivos clave de la región. No aceptes menos que la nutrición exacta que tu cultivo necesita.
             </p>
-
             <a class="BProducto" href="{{ route('Productos') }}">Productos</a>
         </div>
-
-
 
         <div class="Info">
             <h2>Tu Cosecha en Manos Expertas: Del Análisis Científico a la Nutrición Total</h2>
@@ -64,12 +63,8 @@
                 diseña un plan de nutrición a medida, utilizando nuestra gama premium de fertilizantes foliares
                 de alta absorción y acondicionadores de suelo que garantizan resultados visibles.
             </p>
-
             <a class="BProducto" href="{{ route('Hacemos') }}">¿Que hacemos?</a>
         </div>
-
-
-
 
         <div class="Info">
             <h2>Más que Productos: Un Compromiso con Tu Tierra y Tu Futuro</h2>
@@ -80,25 +75,15 @@
                 Nuestra Misión, Visión y Valores no son solo palabras; son la brújula que guía cada análisis,
                 cada asesoría y cada producto que desarrollamos. Representan nuestra promesa de ser el socio
                 estratégico que tu cultivo necesita para prosperar de forma sostenible.
-
             </p>
-
             <a class="BProducto" href="{{ route('Somos') }}">¿Quiénes Somos?</a>
         </div>
     </div>
-
-
-    <!-- Footer -->
-
-    <script src="/js/Boton.js"></script>
-
-    </div>
-
     <footer class="Contacto" id="ContactoFooter">
         <div class="footer-container">
 
             <div class="footer-left">
-                <img src="Img/Logo2.png" alt="Logo RGFoliares" class="footer-logo">
+                <img src="{{ asset('Img/Logo2.png') }}" alt="Logo RGFoliares" class="footer-logo">
                 <div class="footer-info">
                     <p><b>Horario de Atención</b></p>
                     <p>Lunes a Viernes de 9:00 a 19:00</p>
@@ -106,14 +91,14 @@
                     <p><b>Email: </b><a
                             href="mailto:RgFoliares@hotmail.com?Subject=Información">RgFoliares@hotmail.com</a></p>
                     <p><b>¿Donde nos encontramos?</b></p>
-                    <p>Calle Cto. Torreón 246, Aviación San Ignacio,
-                        <br> 27016 Torreón, Coah.
-                    </p>
+                    <p>Calle Cto. Torreón 246, Aviación San Ignacio, <br> 27016 Torreón, Coah.</p>
                     <br>
+
                     <iframe
                         src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.998819915458!2d-103.39466900227987!3d25.564884067305208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdb006d7984ff%3A0xdb89219ff953b8c5!2sRG%20Fertilizantes%20Foliares!5e0!3m2!1ses-419!2smx!4v1761276558728!5m2!1ses-419!2smx"
                         width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
             </div>
 
@@ -125,36 +110,36 @@
                     @csrf
 
                     <div class="campo-doble">
-                        <label for="nombre">Nombre del Productor:</label>
+                        <label for="Name">Nombre del Productor:</label>
                         <input type="text" id="Name" name="Name" placeholder="Nombre y Apellido" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="telefono">Teléfono:</label>
+                        <label for="Phone">Teléfono:</label>
                         <input type="tel" id="Phone" name="Phone" placeholder="XXX-XXX-XXXX" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="telefono">Correo:</label>
+                        <label for="Email">Correo:</label>
                         <input type="email" id="Email" name="Email" placeholder="Correo" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="ubicacion">Ubicación:</label>
+                        <label for="Location">Ubicación:</label>
                         <input type="text" id="Location" name="Location" placeholder="Ubicacion" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="Cultivo">Cultivo:</label>
+                        <label for="Crop">Cultivo:</label>
                         <input type="text" id="Crop" name="Crop" placeholder="Tipo de cultivo que maneja" required>
                     </div>
 
                     <div class="campo-doble">
-                        <label for="surface">Superficie:</label>
+                        <label for="Surface">Superficie:</label>
                         <input type="text" id="Surface" name="Surface" placeholder="Superficie" required>
                     </div>
 
-                    <label for="comentarios">Producto a Cotizar:</label>
+                    <label for="Comment">Producto a Cotizar:</label>
                     <textarea id="Comment" name="Comment" placeholder="Comenta tu Interes"></textarea>
 
                     <button type="submit">Enviar</button>
@@ -162,13 +147,32 @@
 
             </div>
         </div>
-
-        <script src="/js/Formulario.js"></script>
     </footer>
 
+    <script src="{{ asset('js/Boton.js') }}"></script>
+    <script src="{{ asset('js/Formulario.js') }}"></script>
 
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
 
+            document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+                anchor.addEventListener('click', function (e) {
+                    e.preventDefault();
+                    const targetId = this.getAttribute('href');
+                    const targetElement = document.querySelector(targetId);
+                    if (targetElement) {
+                        targetElement.scrollIntoView({ behavior: 'smooth' });
+                    }
+                });
+            });
 
+            if (window.location.hash) {
+                setTimeout(function () {
+                    history.replaceState(null, null, window.location.pathname);
+                }, 10);
+            }
+        });
+    </script>
 
 </body>
 
