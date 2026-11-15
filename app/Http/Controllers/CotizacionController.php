@@ -23,20 +23,30 @@ class CotizacionController extends Controller
         $cotizacion = Cotizacion::create($validated);
 
         // Enviar correo usando SMTP de Laravel
-        Mail::send([], [], function ($message) use ($cotizacion) {
+        $c = array_map(fn ($v) => e($v ?? ''), $cotizacion->only([
+            'Name', 'Phone', 'Email', 'Location', 'Crop', 'Surface', 'Comment',
+        ]));
+
+        // Si el correo falla, la cotización ya quedó guardada: se registra el error
+        // en el log y el cliente ve igualmente el mensaje de éxito.
+        try {
+        Mail::send([], [], function ($message) use ($c) {
             $message->to('jorge.silva@rgfoliares.com')
                 ->subject('Nueva Cotización Recibida')
-                ->setBody("
+                ->html("
                     <h2>¡Nueva cotización recibida!</h2>
-                    <p><strong>Nombre:</strong> {$cotizacion->Name}</p>
-                    <p><strong>Teléfono:</strong> {$cotizacion->Phone}</p>
-                    <p><strong>Correo:</strong> {$cotizacion->Email}</p>
-                    <p><strong>Ubicación:</strong> {$cotizacion->Location}</p>
-                    <p><strong>Cultivo:</strong> {$cotizacion->Crop}</p>
-                    <p><strong>Superficie:</strong> {$cotizacion->Surface}</p>
-                    <p><strong>Comentarios:</strong> {$cotizacion->Comment}</p>
-                ", 'text/html');
+                    <p><strong>Nombre:</strong> {$c['Name']}</p>
+                    <p><strong>Teléfono:</strong> {$c['Phone']}</p>
+                    <p><strong>Correo:</strong> {$c['Email']}</p>
+                    <p><strong>Ubicación:</strong> {$c['Location']}</p>
+                    <p><strong>Cultivo:</strong> {$c['Crop']}</p>
+                    <p><strong>Superficie:</strong> {$c['Surface']}</p>
+                    <p><strong>Comentarios:</strong> {$c['Comment']}</p>
+                ");
         });
+        } catch (\Throwable $e) {
+            report($e);
+        }
 
         return redirect()->back()->with('success', '¡Cotización enviada con éxito!');
     }

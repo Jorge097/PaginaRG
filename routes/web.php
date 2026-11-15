@@ -4,7 +4,9 @@ use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\CotizacionController;
 
 // Ruta para guardar cotizaciones
-Route::post('/cotizaciones', [CotizacionController::class, 'store'])->name('cotizaciones.store');
+Route::post('/cotizaciones', [CotizacionController::class, 'store'])
+    ->middleware('throttle:5,1') // máx. 5 envíos por minuto por IP (anti-spam)
+    ->name('cotizaciones.store');
 
 // Página principal
 Route::get('/', function () {

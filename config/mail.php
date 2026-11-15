@@ -46,6 +46,14 @@ return [
             'local_domain' => env('MAIL_EHLO_DOMAIN'),
         ],
 
+        'graph' => [
+            'transport' => 'graph',
+            'tenant_id' => env('MSGRAPH_TENANT_ID'),
+            'client_id' => env('MSGRAPH_CLIENT_ID'),
+            'client_secret' => env('MSGRAPH_CLIENT_SECRET'),
+            'sender' => env('MSGRAPH_SENDER', env('MAIL_FROM_ADDRESS')),
+        ],
+
         'ses' => [
             'transport' => 'ses',
         ],
