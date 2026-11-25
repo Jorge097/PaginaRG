@@ -5,22 +5,55 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Cotizacion;
 use Illuminate\Support\Facades\Mail;
+use Illuminate\Support\Facades\Validator;
 
 class CotizacionController extends Controller
 {
     public function store(Request $request)
     {
-        $validated = $request->validate([
+        // Vuelve al formulario (#cotizar) de la página desde la que se envió.
+        // Solo se acepta una URL del propio sitio (evita redirecciones abiertas vía Referer).
+        $previous = url()->previous(route('home'));
+        if (parse_url($previous, PHP_URL_HOST) !== $request->getHost()) {
+            $previous = route('home');
+        }
+        $back = strtok($previous, '#').'#cotizar';
+
+        // Campo trampa: solo un bot lo llena. Se responde como éxito sin guardar nada.
+        if ($request->filled('empresa_web')) {
+            return redirect()->to($back)->with('success', true);
+        }
+
+        $validator = Validator::make($request->all(), [
             'Name' => 'required|string|max:255',
-            'Phone' => 'required|string|max:20',
-            'Email' => 'required|email',
+            'Phone' => ['required', 'string', 'max:20', 'regex:/^[0-9 +()\-]{7,20}$/'],
+            // not_regex: mitiga el aviso de inyección CRLF en la regla email de Laravel < 12.60
+            'Email' => ['required', 'email:rfc', 'not_regex:/[\r\n]/', 'max:255'],
             'Location' => 'required|string|max:255',
             'Crop' => 'required|string|max:255',
             'Surface' => 'required|string|max:255',
-            'Comment' => 'nullable|string',
+            'Comment' => 'nullable|string|max:2000',
+        ], [
+            'required' => 'Escribe tu :attribute.',
+            'email' => 'Escribe un correo válido, por ejemplo nombre@dominio.com.',
+            'Email.not_regex' => 'Escribe un correo válido, por ejemplo nombre@dominio.com.',
+            'Phone.regex' => 'Escribe un teléfono de 7 a 20 dígitos; puedes usar espacios, guiones y +.',
+            'max' => 'El campo :attribute admite como máximo :max caracteres.',
+        ], [
+            'Name' => 'nombre',
+            'Phone' => 'teléfono',
+            'Email' => 'correo',
+            'Location' => 'ubicación',
+            'Crop' => 'cultivo',
+            'Surface' => 'superficie',
+            'Comment' => 'comentario',
         ]);
 
-        $cotizacion = Cotizacion::create($validated);
+        if ($validator->fails()) {
+            return redirect()->to($back)->withErrors($validator)->withInput($request->except('empresa_web'));
+        }
+
+        $cotizacion = Cotizacion::create($validator->validated());
 
         // Enviar correo usando SMTP de Laravel
         $c = array_map(fn ($v) => e($v ?? ''), $cotizacion->only([
@@ -48,6 +81,6 @@ class CotizacionController extends Controller
             report($e);
         }
 
-        return redirect()->back()->with('success', '¡Cotización enviada con éxito!');
+        return redirect()->to($back)->with('success', true);
     }
 }

@@ -1,0 +1,290 @@
+{
+  "analisisagua": {
+    "width": 3120,
+    "height": 2092,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/analisisagua-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/analisisagua-960.webp"
+      },
+      {
+        "w": 1600,
+        "src": "Img/opt/analisisagua-1600.webp"
+      }
+    ]
+  },
+  "analisisnueces": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/analisisnueces-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/analisisnueces-960.webp"
+      }
+    ]
+  },
+  "aniversario": {
+    "width": 1024,
+    "height": 1024,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/aniversario-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/aniversario-960.webp"
+      },
+      {
+        "w": 1024,
+        "src": "Img/opt/aniversario-1024.webp"
+      }
+    ]
+  },
+  "completemix": {
+    "width": 548,
+    "height": 451,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/completemix-480.webp"
+      },
+      {
+        "w": 548,
+        "src": "Img/opt/completemix-548.webp"
+      }
+    ]
+  },
+  "dron": {
+    "width": 1280,
+    "height": 960,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/dron-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/dron-960.webp"
+      },
+      {
+        "w": 1280,
+        "src": "Img/opt/dron-1280.webp"
+      }
+    ]
+  },
+  "fertilizante-8": {
+    "width": 639,
+    "height": 468,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/fertilizante-8-480.webp"
+      },
+      {
+        "w": 639,
+        "src": "Img/opt/fertilizante-8-639.webp"
+      }
+    ]
+  },
+  "fertilizante-n": {
+    "width": 639,
+    "height": 468,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/fertilizante-n-480.webp"
+      },
+      {
+        "w": 639,
+        "src": "Img/opt/fertilizante-n-639.webp"
+      }
+    ]
+  },
+  "fertilizantesfoliares": {
+    "width": 960,
+    "height": 1280,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/fertilizantesfoliares-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/fertilizantesfoliares-960.webp"
+      }
+    ]
+  },
+  "fertilizantessuelo": {
+    "width": 1280,
+    "height": 720,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/fertilizantessuelo-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/fertilizantessuelo-960.webp"
+      },
+      {
+        "w": 1280,
+        "src": "Img/opt/fertilizantessuelo-1280.webp"
+      }
+    ]
+  },
+  "foliark": {
+    "width": 197,
+    "height": 152,
+    "variants": [
+      {
+        "w": 197,
+        "src": "Img/opt/foliark-197.webp"
+      }
+    ]
+  },
+  "laboratorio": {
+    "width": 3072,
+    "height": 1816,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/laboratorio-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/laboratorio-960.webp"
+      },
+      {
+        "w": 1600,
+        "src": "Img/opt/laboratorio-1600.webp"
+      }
+    ]
+  },
+  "logo": {
+    "width": 180,
+    "height": 159,
+    "variants": [
+      {
+        "w": 180,
+        "src": "Img/opt/logo-180.webp"
+      }
+    ]
+  },
+  "logo2": {
+    "width": 1000,
+    "height": 1000,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/logo2-480.webp"
+      },
+      {
+        "w": 960,
+        "src": "Img/opt/logo2-960.webp"
+      },
+      {
+        "w": 1000,
+        "src": "Img/opt/logo2-1000.webp"
+      }
+    ]
+  },
+  "niquel": {
+    "width": 270,
+    "height": 202,
+    "variants": [
+      {
+        "w": 270,
+        "src": "Img/opt/niquel-270.webp"
+      }
+    ]
+  },
+  "nzinc": {
+    "width": 600,
+    "height": 453,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/nzinc-480.webp"
+      },
+      {
+        "w": 600,
+        "src": "Img/opt/nzinc-600.webp"
+      }
+    ]
+  },
+  "rgbrotacion": {
+    "width": 566,
+    "height": 447,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/rgbrotacion-480.webp"
+      },
+      {
+        "w": 566,
+        "src": "Img/opt/rgbrotacion-566.webp"
+      }
+    ]
+  },
+  "rgfloracion": {
+    "width": 573,
+    "height": 445,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/rgfloracion-480.webp"
+      },
+      {
+        "w": 573,
+        "src": "Img/opt/rgfloracion-573.webp"
+      }
+    ]
+  },
+  "soilrestore": {
+    "width": 635,
+    "height": 463,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/soilrestore-480.webp"
+      },
+      {
+        "w": 635,
+        "src": "Img/opt/soilrestore-635.webp"
+      }
+    ]
+  },
+  "stimulant": {
+    "width": 582,
+    "height": 464,
+    "variants": [
+      {
+        "w": 480,
+        "src": "Img/opt/stimulant-480.webp"
+      },
+      {
+        "w": 582,
+        "src": "Img/opt/stimulant-582.webp"
+      }
+    ]
+  },
+  "zinc": {
+    "width": 257,
+    "height": 204,
+    "variants": [
+      {
+        "w": 257,
+        "src": "Img/opt/zinc-257.webp"
+      }
+    ]
+  }
+}
