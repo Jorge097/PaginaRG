@@ -98,6 +98,16 @@ class SitioTest extends TestCase
         $this->assertSame($antes, Cotizacion::count());
     }
 
+    public function test_las_paginas_tienen_vista_previa_para_compartir(): void
+    {
+        $this->get('/productos')
+            ->assertSee('<meta property="og:title" content="Productos — RG Fertilizantes Foliares">', false)
+            ->assertSee('property="og:description"', false)
+            ->assertSee('<meta property="og:image" content="'.asset('Img/og/rg-og.jpg').'">', false);
+
+        $this->assertFileExists(public_path('Img/og/rg-og.jpg'));
+    }
+
     public function test_el_aviso_de_privacidad_esta_publicado_y_enlazado(): void
     {
         $this->get('/aviso-de-privacidad')
