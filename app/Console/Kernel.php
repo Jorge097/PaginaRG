@@ -12,7 +12,8 @@ class Kernel extends ConsoleKernel
      */
     protected function schedule(Schedule $schedule): void
     {
-        // $schedule->command('inspire')->hourly();
+        // Aviso de privacidad: borra las cotizaciones más antiguas que el plazo de retención.
+        $schedule->command('model:prune', ['--model' => [\App\Models\Cotizacion::class]])->daily();
     }
 
     /**

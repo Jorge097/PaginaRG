@@ -1009,6 +1009,22 @@ html.vt-active .sheet[open] { animation: none; }
     color: var(--moss);
 }
 
+.form__note a,
+.colophon a { color: var(--chalk); text-decoration-color: var(--gold); }
+.colophon a:hover { color: var(--gold); }
+
+/* ---------- Aviso de privacidad ---------- */
+.legal__updated { font-size: var(--step--1); color: var(--moss); }
+.legal { padding-top: var(--space-l); }
+.legal__body { display: grid; gap: 0.9rem; max-width: 46rem; }
+.legal__body .h3 { margin-top: var(--space-m); }
+.legal__body .h3:first-child { margin-top: 0; }
+.legal__body p,
+.legal__body li { color: var(--moss); }
+.legal__body ul { display: grid; gap: 0.35rem; margin: 0; padding-left: 1.2rem; }
+.legal__body li::marker { color: var(--gold); }
+.legal__body a { color: var(--chalk); text-decoration-color: var(--gold); }
+
 /* ---------- Movimiento reducido: solo opacidad ---------- */
 @media (prefers-reduced-motion: reduce) {
     *, *::before, *::after {

@@ -12,6 +12,7 @@ Route::view('/', 'pages.inicio')->name('home');
 Route::view('/productos', 'pages.productos')->name('Productos');
 Route::view('/hacemos', 'pages.hacemos')->name('Hacemos');
 Route::view('/somos', 'pages.somos')->name('Somos');
+Route::view('/aviso-de-privacidad', 'pages.privacidad')->name('privacidad');
 
 // La vista antigua de contacto no existía (daba 500): el formulario vive en el pie de cada página.
 Route::redirect('/contactanos', '/#cotizar', 301)->name('contactanos');

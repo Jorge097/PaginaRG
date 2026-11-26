@@ -19,6 +19,17 @@ return [
         'mapa' => 'https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d647.998819915458!2d-103.39466900227987!3d25.564884067305208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x868fdb006d7984ff%3A0xdb89219ff953b8c5!2sRG%20Fertilizantes%20Foliares!5e0!3m2!1ses-419!2smx!4v1761276558728!5m2!1ses-419!2smx',
     ],
 
+    /*
+    | Aviso de privacidad (LFPDPPP). 'responsable' debe ser la razón social
+    | o el nombre de la persona física titular del negocio.
+    */
+    'privacidad' => [
+        'responsable' => 'RG Fertilizantes Foliares',
+        'rfc' => null,
+        'retencion_meses' => 6,
+        'actualizado' => '26 de noviembre de 2026',
+    ],
+
     'cultivos' => ['Nogal', 'Alfalfa', 'Maíz', 'Sorgo', 'Algodón', 'Hortalizas', 'Granado'],
 
     // tipo: foliar | suelo

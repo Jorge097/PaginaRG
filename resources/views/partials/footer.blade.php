@@ -95,7 +95,11 @@
                 </div>
 
                 <button class="btn btn--primary btn--block" type="submit">Enviar solicitud de cotización</button>
-                <p class="form__note">Usamos tus datos solo para responder esta solicitud.</p>
+                <p class="form__note">
+                    {{ config('rg.privacidad.responsable') }} usa tus datos solo para responder esta solicitud y los borra
+                    a los {{ config('rg.privacidad.retencion_meses') }} meses. Puedes pedir que los corrijamos o eliminemos
+                    en {{ $c['email'] }}. Lee el <a href="{{ route('privacidad') }}">aviso de privacidad</a>.
+                </p>
             </form>
         </div>
     </div>
@@ -103,5 +107,6 @@
     <div class="wrap colophon">
         <p>© {{ date('Y') }} RG Fertilizantes Foliares, Torreón, Coahuila</p>
         <p>16 años nutriendo cultivos en la Comarca Lagunera</p>
+        <p><a href="{{ route('privacidad') }}">Aviso de privacidad</a></p>
     </div>
 </footer>

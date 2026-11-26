@@ -98,6 +98,28 @@ class SitioTest extends TestCase
         $this->assertSame($antes, Cotizacion::count());
     }
 
+    public function test_el_aviso_de_privacidad_esta_publicado_y_enlazado(): void
+    {
+        $this->get('/aviso-de-privacidad')
+            ->assertOk()
+            ->assertSee('Aviso de privacidad')
+            ->assertSee(config('rg.contacto.email'));
+
+        $this->get('/')->assertSee(route('privacidad'), false);
+    }
+
+    public function test_las_cotizaciones_vencidas_se_borran(): void
+    {
+        $vieja = Cotizacion::create(self::DATOS);
+        $vieja->forceFill(['created_at' => now()->subMonths(7)])->save();
+        $nueva = Cotizacion::create(self::DATOS);
+
+        $this->artisan('model:prune', ['--model' => [Cotizacion::class]])->assertSuccessful();
+
+        $this->assertModelMissing($vieja);
+        $this->assertModelExists($nueva);
+    }
+
     public function test_un_referer_externo_no_provoca_redireccion_abierta(): void
     {
         $this->withHeader('Referer', 'https://evil.example/phish')
