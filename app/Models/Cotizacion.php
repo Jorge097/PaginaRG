@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 
 class Cotizacion extends Model
 {
-    protected $table = 'cotizaciones';
+    protected $table = 'Cotizaciones'; // así se creó en la migración; en Linux MySQL distingue mayúsculas
 
     protected $fillable = [
     'Name',

@@ -69,7 +69,7 @@ class SitioTest extends TestCase
             ->assertRedirect(url('/productos').'#cotizar')
             ->assertSessionHas('success', true);
 
-        $this->assertDatabaseHas('cotizaciones', ['Email' => 'prueba@ejemplo.com', 'Crop' => 'Nogal']);
+        $this->assertDatabaseHas('Cotizaciones', ['Email' => 'prueba@ejemplo.com', 'Crop' => 'Nogal']);
     }
 
     public function test_campos_obligatorios_devuelven_errores(): void
